@@ -1,0 +1,119 @@
+@import '../../variable.scss';
+
+.text-image {
+  //margin-right: 20px;
+  //height: calc(100vh - 40px);
+
+}
+
+.flexbetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+
+  .images {
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.cards {
+  margin: 10px 20px;
+
+  background-color: $primary;
+  padding: 20px;
+  color: #fff;
+  width: 33.3333%;
+}
+
+.flexalign {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  //width: 90%;
+
+
+  .tablepara {
+    padding-right: 20px;
+  }
+
+  .table {
+    //width: 30%;
+    margin-right: 20px;
+    border: 1px solid $primary;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+
+    font-size: 16px;
+
+    //color: $primary;
+    table {
+      width: 100%;
+      border-spacing: 0px;
+
+      th {
+        padding: 5px 15px;
+        border-bottom: 1px solid $primary;
+        border-right: 1px solid $primary;
+      }
+
+      th:nth-child(3) {
+        border-right: none;
+      }
+
+      td {
+        text-align: left;
+        padding: 5px 15px;
+
+        border-bottom: 1px solid $primary;
+        border-right: 1px solid $primary;
+      }
+
+      td:nth-child(3) {
+        border-right: none;
+      }
+
+      tr:last-child {
+        td {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
+
+
+@include md {
+  .cards {
+    width: 85%;
+    margin: 10px 0px;
+    padding-right: 10px;
+  }
+
+  .flexblock {
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
+  .flexalign {
+    .table {
+      table {
+        th {
+          padding: 5px 5px;
+        }
+
+        td {
+          padding: 5px 5px;
+        }
+      }
+    }
+  }
+
+}

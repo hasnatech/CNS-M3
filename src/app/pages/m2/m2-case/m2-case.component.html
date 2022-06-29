@@ -1,0 +1,39 @@
+<div id="text" class="fadeIn pad">
+    <div class="flex">
+        <div class="content1 fjcenter blue">
+            <div>
+
+                <div class="flex1 ">
+                </div>
+                <div>
+                    <h1 class="t-white p-20" [innerHtml]="service.content.title.text"></h1>
+                </div>
+            </div>
+
+
+
+            <div class="ps-20">
+                <p [innerHtml]="service.content.para.text"></p>
+            </div>
+            <div class="flex fjcenter">
+                <img src="{{service.content.image.src}}">
+            </div>
+        </div>
+
+        <div class="green ">
+            <div>
+                <div class="video-box" *ngIf="service.content.video">
+                    <video controls poster="{{service.content.video.poster}}">
+                        <source src="{{service.content.video.src}}" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="content2" *ngIf="service.content.title1 && service.content.para1">
+                <h1 class="t-white" [innerHtml]="service.content.title1.text"></h1>
+                <p [innerHtml]="service.content.para1.text"></p>
+            </div>
+        </div>
+    </div>
+
+</div>

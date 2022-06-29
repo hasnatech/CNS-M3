@@ -1,0 +1,67 @@
+<div id="text" class="grid-center fadeIn">
+  <div class="text-block max-width flex">
+
+    <div>
+      <div>
+
+        <div class="header">
+          <div class="alignbase">
+            <div class="{{this.service.data.default.main[1].children[service.parentIndex].mybox}} mybox"
+              data-animatename="step1" data-animatetime='1'></div>
+            <div>
+              <h1 data-animatename="step1" data-animatetime='1' [innerHTML]="service.content.title.text"></h1>
+              <h2 data-animatename="step1" data-animatetime='2'>{{service.content.subtitle.text}}</h2>
+              <div data-animatename="step1" data-animatetime='3' *ngIf = "service.content.content" [innerHtml] = "service.content.content.text"></div>
+            </div>
+
+          </div>
+
+        </div>
+      </div> 
+
+    </div>
+
+
+
+
+    <div class="content flex-1 flex flexblock {{service.content.subtype}} fjcenter">
+      <div class="dummyimage flex-1" *ngIf="service.content.image" data-animatename="step1" data-animatetime='3'>
+        <img class="width-full" src="{{service.content.image.src}}" alt="{{service.content.image.alt}}">
+      </div>
+      <!-- <div class="flex-1" [innerHTML]="service.content.content.text" data-animatename="step1" data-animatetime='3'>
+      </div> -->
+      <div class="text-center full-width" *ngIf="service.content.image" data-animatename="step1" data-animatetime=''>
+        <div class="imagecontent "  data-animatetime=''>
+          <div class="flexbetween flex flexblock">
+          <!-- img- 575 -->
+            <div class="image flex-1" data-animatename="step1" data-animatetime='4'>
+              <img src="{{service.content.image[3].src}}">
+            </div>
+
+            <!-- img- 500 -->
+            <div class="image flex-1" data-animatename="step1" data-animatetime='5'>
+              <img src="{{service.content.image[1].src}}">
+            </div>
+          </div>
+          <div>
+            <!-- img- 4 -->
+            <div class="image" data-animatename="step1" data-animatetime='2'>
+              <img src="{{service.content.image[0].src}}">
+            </div>
+          </div>
+          <div class="flexbetween flex flexblock">
+             <!-- img- 3 -->
+            <div class="image flex-1" data-animatename="step1" data-animatetime='3'>
+              <img src="{{service.content.image[2].src}}">
+            </div>
+
+             <!-- img- 1.5M -->
+            <div class="image flex-1" data-animatename="step1" data-animatetime='6'>
+              <img src="{{service.content.image[4].src}}">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

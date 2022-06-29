@@ -1,0 +1,34 @@
+@import '../../variable.scss';
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.content {
+  align-items: center;
+
+  .flex-1 {
+    margin: 0 20px;
+  }
+}
+
+.flexcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-space {
+  margin-right: 40px;
+}
+
+@include md {
+  .flexblock {
+    display: block;
+  }
+
+  .right-space {
+    margin-right: 0px;
+  }
+}

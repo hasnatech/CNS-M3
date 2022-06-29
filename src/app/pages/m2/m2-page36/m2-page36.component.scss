@@ -1,0 +1,50 @@
+.content
+{
+    margin: 20px 50px 0px 0px; 
+   
+}
+
+.box-content{
+    // max-width: 380px;
+   
+    flex: 1; 
+    padding: 10px;
+    // min-height: 500px;
+    font-size: 14px;
+    background: rgba(136, 136, 136,.055);
+    box-shadow: 0 2px 0 #73737326, 2px 4px 6px #7b7b7b63;
+    transition: all 150ms linear;
+
+
+    background: rgba(128, 128, 128, 0.055);
+    border: 1px solid rgba(#000, .05);
+    box-shadow: 1px 1px 2px rgba(#fff, .2);
+    transition: all 250ms linear;
+    border-radius: 10px;
+}
+
+.box-content:hover
+{
+    background: rgba(136, 136, 136,.055);
+    box-shadow: 0 2px 0 #73737326, 2px 4px 6px #7b7b7b63;
+    transition: all 150ms linear;
+}
+
+
+
+
+.opacity0{
+    opacity: 0;
+}
+
+.instr{
+    font-style: italic;
+}
+
+.cursor{
+    cursor: pointer;
+}
+#text
+{
+    padding-top: 0px;
+}

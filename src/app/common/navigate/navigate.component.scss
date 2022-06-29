@@ -1,0 +1,110 @@
+@import '../../variable';
+$width: 40px;
+
+
+.top {
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+
+.bottom {
+  transition: transform 0.5s;
+  transform: rotate(180deg);
+
+  &:hover {
+    transform: translateY(10px) rotate(180deg);
+  }
+}
+
+.top,
+.bottom {
+  cursor: pointer;
+}
+
+
+.animate_arrow {
+  animation: animate_arr 0.5s alternate infinite;
+}
+
+@keyframes animate_arr {
+  0% {
+    transform: translateY(0px) rotate(180deg);
+  }
+
+  100% {
+    transform: translateY(10px) rotate(180deg);
+  }
+}
+
+.opacity0 {
+  opacity: 0;
+}
+
+svg {
+  width: $width;
+  height: $width;
+  position: absolute;
+
+  rect.fill {
+    width: $width/2;
+    height: $width/2;
+    fill: $primary;
+  }
+
+  rect.line {
+    width: $width;
+    height: $width;
+    stroke: $primary;
+    stroke-width: 5px;
+    stroke-dasharray: 160;
+    stroke-dashoffset: 160;
+    transition: stroke-dashoffset 1s linear;
+  }
+
+  rect.bg-line {
+    width: $width;
+    height: $width;
+    stroke: #005f8654;
+    stroke-width: 5px;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.box {
+  width: $width;
+  height: $width;
+  position: relative;
+  //border: 3px solid $primary;
+  transform: rotate(45deg);
+  margin: 20px 0;
+  stroke-dashoffset: 100;
+
+  .fill {
+    width: $width/2;
+    height: $width/2;
+    background-color: $primary;
+  }
+}
+
+.absolute {
+
+  right: 20px;
+  height: $fullheight;
+  display: grid;
+  place-items: center;
+  z-index: 999;
+}
+
+@include md {
+  .absolute {
+    display: none;
+  }
+}

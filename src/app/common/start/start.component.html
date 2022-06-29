@@ -1,0 +1,13 @@
+<div class="start fadeIn">
+  <div>
+    <div class="logo fjcenter">
+      <img src="assets/00.png" alt="Logo">
+    </div>
+    <div *ngIf="this.service.content.type =='start'">
+    <div class="center-text mt">
+      <button class="default-btn" (click)="service.goto(1)">{{service.content.button.text}}</button>
+    </div>
+  </div>
+  </div>
+</div>
+ 

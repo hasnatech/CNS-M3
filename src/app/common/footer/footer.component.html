@@ -1,0 +1,69 @@
+<div>
+  <div class="footer flex fcenter">
+    <div class="item flex" *ngFor="let item of service.data.default.main[1].children; let i = index"
+      [ngClass]="{'active' : getPosition(service.page) == i}" (click)="service.goto(item.startPage)">
+      <div class="box">
+        <svg>
+          <rect class="line" left="0" top="0" fill="none">
+          </rect>
+        </svg>
+        <svg class="fillsvg">
+          <rect class="fill" left="5" top="5" fill="none"></rect>
+        </svg>
+      </div>
+      <div>{{item.name}}</div>
+
+    </div>
+  </div>
+</div>
+<!-- <div *ngIf="service.content.type == 'video' ">
+  <div class="footer flex fcenter black">
+    <div class="item flex" *ngFor="let item of service.data.default.main[1].children; let i = index"
+      [ngClass]="{'active' : getPosition(service.page) == i}" (click)="service.goto(item.startPage)">
+      <div class="box">
+        <svg>
+          <rect class="line" left="0" top="0" fill="none">
+          </rect>
+        </svg>
+        <svg class="fillsvg">
+          <rect class="fill" left="5" top="5" fill="none"></rect>
+        </svg>
+      </div>
+      <div>{{item.name}}</div>
+
+    </div>
+  </div>
+</div> -->
+
+<div *ngIf="router.url != '/menu'">
+  <div class="absolute" *ngIf="service.page != 0">
+    <div class="flex fcenter flexnew">
+      <div class="top" (click)="service.previous()">
+        <img src="assets/left.png" alt="Top">
+      </div>
+
+      <div class="indicator"> 
+        <div class="box"> 
+          <svg>
+            <rect class="bg-line" x="0" y="0" fill="none"></rect>
+          </svg>
+          <svg>
+            <rect [ngStyle]="{'stroke-dashoffset' : (160 - service.percentage * 160) }" id="line" class="line" x="0"
+              y="0" fill="none">
+            </rect>
+          </svg>
+          <svg>
+            <rect class="fill" x="10" y="10" fill="none"></rect>
+          </svg>
+        </div>
+      </div>
+
+      <div class="bottom" (click)="service.next()" *ngIf="service.page < service.totalLength - 1">
+        <img src="assets/right.png" alt="Bottom">
+      </div>
+      <div class="bottom opacity0" *ngIf="service.page == service.totalLength - 1">
+        <img src="assets/right.png" alt="Bottom">
+      </div>
+    </div>
+  </div>
+</div>

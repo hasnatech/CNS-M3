@@ -1,0 +1,365 @@
+@import '../../variable';
+$width: 20px;
+
+.black {
+  background-color: #000000;
+  margin-left: -20px;
+  padding-right: 20px;
+}
+
+.footer {
+  // position: absolute;
+  // width: 100%;
+  // bottom: 0;
+  // font-size: 16px;
+  // font-weight: 100;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: center;
+
+  .item {
+    margin: 20px 10px;
+    max-width: 300px;
+    opacity: 0.5;
+    transform: scale(0.8);
+    transition: opacity 0.5s, transform 0.5s;
+    cursor: pointer;
+
+    svg {
+      &.fillsvg {
+        transition: left 0.5s, top 0.5s;
+        left: 5px;
+        top: 5px;
+      }
+    }
+
+
+    &:hover,
+    &.active {
+      opacity: 1;
+      transform: scale(1);
+
+      .box {
+        svg {
+          &.fillsvg {
+            left: 0;
+            top: 0;
+          }
+
+          rect.fill {
+            width: $width;
+            height: $width; 
+          }
+        }
+      }
+    }
+
+    .box {
+      width: $width;
+      height: $width;
+      position: relative;
+      transform: rotate(45deg);
+      margin-right: 20px;
+
+      svg {
+        width: $width;
+        height: $width;
+        position: absolute;
+
+        rect.fill {
+          width: $width/2;
+          height: $width/2;
+          fill: $secondary;
+
+
+
+          transition: width 0.5s,
+            height 0.5s, x 0.5s,
+            y 0.5s;
+        }
+
+        rect.line {
+          width: $width;
+          height: $width;
+          stroke: $secondary;
+          stroke-width: 3px;
+
+        }
+
+      }
+    }
+  }
+}
+
+
+.footer {
+
+  .item:nth-child(1){
+    color: #DAAB27;
+
+    .box {
+      svg {
+        rect.fill {
+          fill: #DAAB27;
+        }
+
+        rect.line {
+          stroke: #DAAB27;
+        }
+
+      }
+    }
+  }
+
+  .item:nth-child(2) {
+    color: #DAAB27;
+
+    .box {
+      svg {
+        rect.fill {
+          fill: #DAAB27;
+        }
+
+        rect.line {
+          stroke: #DAAB27;
+        }
+
+      }
+    }
+  }
+
+  .item:nth-child(3) {
+    color: $l-green;
+
+    .box {
+      svg {
+        rect.fill {
+          fill: $l-green;
+        }
+
+        rect.line {
+          stroke: $l-green;
+        }
+
+      }
+    }
+  }
+
+  .item:nth-child(4) {
+     color: $blue;
+
+    .box {
+      svg {
+        rect.fill {
+          fill: $blue;
+        }
+
+        rect.line {
+          stroke: $blue;
+        }
+
+      }
+    }
+  }
+
+  .item:nth-child(5) {
+    color: $green;
+
+   .box {
+     svg {
+       rect.fill {
+         fill: $green;
+       }
+
+       rect.line {
+         stroke: $green;
+       }
+
+     }
+   }
+ }
+
+ .item:nth-child(6) {
+  color: $l-blue ;
+
+ .box {
+   svg {
+     rect.fill {
+       fill: $l-blue ;
+     }
+
+     rect.line {
+       stroke: $l-blue ;
+     }
+
+   }
+ }
+}
+
+
+.item:nth-child(7) {
+  color: $orange ;
+
+ .box {
+   svg {
+     rect.fill {
+       fill: $orange ;
+     }
+
+     rect.line {
+       stroke: $orange ;
+     }
+
+   }
+ }
+}
+  
+.item:nth-child(8) {
+  color: $secondary ;
+
+ .box {
+   svg {
+     rect.fill {
+       fill: $secondary ;
+     }
+
+     rect.line {
+       stroke: $secondary ;
+     }
+
+   }
+ }
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+$width1: 40px;
+
+.absolute {
+
+  // height: $fullheight;
+  //display: grid;
+  //place-items: center;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: -20px;
+
+  .flexnew {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+
+  .top {
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: translateX(-10px);
+    }
+  }
+
+  .bottom {
+    transition: transform 0.5s;
+
+
+    &:hover {
+      transform: translateX(10px);
+    }
+  }
+
+  .top,
+  .bottom {
+    cursor: pointer;
+  }
+
+
+
+
+
+  svg {
+    width: $width1;
+    height: $width1;
+    position: absolute;
+
+    rect.fill {
+      width: $width1/2;
+      height: $width1/2;
+      fill: $primary;
+    }
+
+    rect.line {
+      width: $width1;
+      height: $width1;
+      stroke: $primary;
+      stroke-width: 5px;
+      stroke-dasharray: 160;
+      stroke-dashoffset: 160;
+      transition: stroke-dashoffset 1s linear;
+    }
+
+    rect.bg-line {
+      width: $width1;
+      height: $width1;
+      stroke: #005f8654;
+      stroke-width: 5px;
+    }
+  }
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .box {
+    width: $width1;
+    height: $width1;
+    position: relative;
+    //border: 3px solid $primary;
+    transform: rotate(45deg);
+    margin: 20px 0;
+    stroke-dashoffset: 100;
+
+    .fill {
+      width: $width1/2;
+      height: $width1/2;
+      background-color: $primary;
+    }
+  }
+
+}
+
+.opacity0 {
+  opacity: 0;
+}
+
+@include md {
+  .footer {
+    display: none;
+  }
+
+  .absolute {
+    display: flex;
+    bottom: 0px;
+  }
+}

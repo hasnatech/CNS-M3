@@ -1,0 +1,25 @@
+<div class="mobile-menu">
+  <div class=" flex">
+    <div class="flex-1"></div>
+    <div class="menu" (click)="service.menu = !service.menu" [ngClass]="{'open' : service.menu == true}">
+      <div class="dash"></div>
+      <div class="dash"></div>
+      <div class="dash"></div>
+    </div>
+  </div>
+  <div class="menu-panel" [ngClass]="{'open' : service.menu == true}">
+    <div *ngFor="let item of service.data.default.main[1].children; let i = index" class="item flex "
+      (click)="service.goto(item.startPage)" [ngClass]="{'active' : service.parentIndex == i}">
+      <div class="box">
+        <svg>
+          <rect class="line" left="0" top="0" fill="none">
+          </rect>
+        </svg>
+        <svg class="fillsvg">
+          <rect class="fill" left="5" top="5" fill="none"></rect>
+        </svg>
+      </div>
+      <div>{{item.name}}</div>
+    </div>
+  </div>
+</div>

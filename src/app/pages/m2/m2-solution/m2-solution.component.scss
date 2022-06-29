@@ -1,0 +1,54 @@
+@import '../../../variable';
+.content1{
+    max-width: 900px;
+}
+.pad
+{
+    padding:0px 50px;
+}
+.right-space
+{
+  margin-right: 30px;
+}
+.content2{
+    min-width: 900px;
+    max-width: 900px;
+}
+.table {
+    margin-right: 20px;
+    border: 1px solid $primary;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    width: 700px;
+    table {
+      width: 100%;
+      border-spacing: 0px;
+
+      th {
+        padding: 5px 15px;
+        border-bottom: 1px solid $primary;
+        border-right: 1px solid $primary;
+        border-top: 1px solid $primary;
+      }
+      td {
+        text-align: left;
+        padding: 5px 15px;
+
+        border-bottom: 1px solid $primary;
+        border-right: 1px solid $primary;
+      }
+      tr:last-child {
+        td {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+.first-row{
+    padding: 5px 15px;
+    border-bottom: none !important;
+    border-right: none !important;
+    border-top: none !important;
+}

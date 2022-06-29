@@ -1,0 +1,59 @@
+<div id="text" class="grid-center fadeIn padding">
+    <div class="instr">Click through each customer segment to learn more.</div>  
+    <div class="flex fjcenter gap content">
+        <div class="box-content" data-animatename="step1" data-animatetime='1'>
+            <div class="cursor" (click)="open(0)">
+                <div class="text-center"><img src="assets/customer1.png"></div>
+                <p class="text-center" *ngIf="clickedArr[0] != true"><b class="primary-color">Aiden and Noah</b></p>
+            </div>
+            <div [class.opacity0]="clickedArr[0] != true">
+                <p><b class="primary-color">Aiden and Noah customers</b> are producers who use a consultant.</p>
+                <p>They need to optimize on-farm ingredients and to create the right diet formulation based on their goals.</p>
+                <p><b>What do they need most from CNS?</b> Consistency to build a generational business. They want better productivity, 
+                    sustainable practices, higher production with fewer inputs, and the ability to maximize other investments.</p>
+            </div>
+        </div>
+        <div class="box-content" data-animatename="step1" data-animatetime='2'>
+            <div class="cursor" (click)="open(1)">
+                <div class="text-center"><img src="assets/customer2.png"></div>
+                <p class="text-center" *ngIf="clickedArr[1] != true"><b class="primary-color">Spence</b></p>
+            </div>
+            <div [class.opacity0]="clickedArr[1] != true">
+                <p><b class="primary-color">Spence customers</b> are independent consultants.</p>
+                <p>They need accurate nutrients to formulate diets that fill gaps in nutrition. If a farm has issues,
+                    they
+                    can use CNS combined with Cargill products to effectively solve challenges.</p>
+                <p><b>What do they need most from CNS?</b> To have a consistent system that builds confidence and
+                    strengthens their own brand, customer retention.</p>
+            </div>
+        </div>
+        <div class="box-content" data-animatename="step1" data-animatetime='3'>
+            <div class="cursor" (click)="open(2)">
+                <div class="text-center"><img src="assets/customer3.png"></div>
+                <p class="text-center" *ngIf="clickedArr[2] != true"><b class="primary-color">Mila</b></p>
+            </div>
+            <div [class.opacity0]="clickedArr[2] != true">
+                <p><b class="primary-color">Mila customers</b> create feed.</p>
+                <p>They need their plant formulation systems to connect to their diet formulation system in real time.
+                    CNS
+                    helps them customize formulations and optimize feed, cost and performance.</p>
+                <p><b>What do they need most from CNS?</b> Create a growing business with the best quality feed, build
+                    strong relationships with producers and access to a constantly updated system.</p>
+            </div>
+        </div>
+        <div class="box-content" data-animatename="step1" data-animatetime='4'>
+            <div class="cursor" (click)="open(3)">
+                <div class="text-center"><img src="assets/customer4.png"></div>
+                <p class="text-center" *ngIf="clickedArr[3] != true"><b class="primary-color">Dennis</b></p>
+            </div>
+            <div [class.opacity0]="clickedArr[3] != true">
+                <p><b class="primary-color">Dennis customers</b> are distributors that sell feed.</p>
+                <p>They need our plant formulation systems to speak to their diet formulation systems in real time, so
+                    they
+                    can access product specifications.</p>
+                <p><b>What do they need most from CNS?</b> Create a great reputation using the best quality feeds. Build
+                    strong customer intimacy.</p>
+            </div>
+        </div>
+    </div>
+</div>

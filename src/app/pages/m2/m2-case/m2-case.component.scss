@@ -1,0 +1,58 @@
+@import "../../../variable";
+
+
+.pad
+{
+    padding: 20px 50px 50px 50px;
+}
+.p-20
+{
+    padding: 20px;
+}
+.ps-20{
+    padding: 0px 20px;
+}
+.flex{
+    width: 100%;
+}
+
+.right-space
+{
+    margin-right: 30px;
+}
+
+.video-box
+{
+    margin-top: 20px;
+}
+
+video{
+
+    max-width: 100%;
+    // max-height: 334px;
+   
+  }
+  .t-white
+  {
+      color: #fff;
+  }
+
+  .blue
+  {
+      background-color: $primary;
+      color: #fff;
+      
+      
+  }
+
+  .green
+  {
+      background-color: $secondary;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+  }
+
+ 

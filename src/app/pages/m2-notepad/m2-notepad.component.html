@@ -1,0 +1,148 @@
+<div class="content">
+    <div class="header"> 
+        <div class="" data-animatename="step1" data-animatetime='1'>  
+
+          <div>
+            <div class="alignbase">
+              <div class="flex1 right-space primarybox mybox">
+          </div>
+          <div>
+            <h1 >Lab – Calculated nutrients</h1>
+         </div>
+       </div>
+
+         </div>
+
+
+<!-- ///////////////////////////////////using flex-box////////////////////////////////////////////////////// -->
+         <div *ngIf = "firstcontent == true">
+        <p>Click on the notepads below to see examples of these proprietary calculated nutrients and how they solve key challenges for our customers.</p>
+
+
+
+    <div class="flex-container ">
+
+        <div class="notebg f-16" (click) = "show1()"><img class="tick" src="assets/tick.svg" *ngIf = "this.visit1 == true"> Nutrient Digestibility & Energy​</div>
+        <div class="notebg f-16" (click) = "show2()"><img class="tick" src="assets/tick.svg" *ngIf = "this.visit2 == true">Amino Acids</div>
+    </div>
+        <div class="flex-container f-16">
+        <div class="notebg f-16" (click) = "show3()"><img class="tick" src="assets/tick.svg" *ngIf = "this.visit3 == true">Milk Composition</div>
+        <div class="notebg f-16" (click) = "show4()"><img class="tick" src="assets/tick.svg" *ngIf = "this.visit4 == true">Rumen Environment​</div>
+
+      </div>
+</div>
+
+
+
+<!-- /////////////////////////////Nutrient Digestibility & Energy ////////////////////////////////////////////-->
+<div class="f-16">
+
+      <div class="pop-up" *ngIf = "pop1 == true">
+          <div class="flex fjend"> 
+          <div class="close closenew" (click) = "closeall()">X</div>
+          </div>
+            <h3 class="text-center"><b>Nutrient Digestibility & Energy​</b></h3>
+            <div class="text f-16">
+                <div>
+                    <b>Dig NDF – digestible NDF </b>
+                <ul>
+                    <li>Key source of energy for the cow and drives rumen fermentation.</li>
+                    <li>Accurately predicts nutrient supply based on extent and rate of NDF digestion.</li>
+                </ul>
+  
+               <b>RumDig Starch –rumen digestible starch​</b>
+                <ul>
+                    <li>Key source of energy for the cow and drives rumen fermentation.</li>
+                    <li>Calculates both chemical and physical characteristics of starch sources to more accurately predict what happens in the cow, improving animal health and performance.​</li>
+                </ul>
+  
+                <b>Rumen VFA’s – prediction of Volatile Fatty Acid production in rumen from fermentation.</b>
+                <ul>
+                    <li>A key part of our total energy calculation that provides insight for optimizing rumen fermentation.​</li>
+                </ul>
+  
+                <b>NEL Dairy – Net Energy of Lactation​</b>
+                <ul>
+                    <li>Proprietary energy model provides an accurate understanding of energy content in the diet which is a key driver of animal performance.​</li>
+                </ul>
+                </div>
+            </div>
+      </div>
+<!-- /////////////////////////////Nutrient Digestibility & Energy ////////////////////////////////////////////-->
+
+
+<!-- /////////////////////////////Amino Acids ////////////////////////////////////////////-->
+      <div class="pop-up" *ngIf = "pop2 == true">
+        <div class="flex fjend"> 
+            <div class="close closenew" (click) = "closeall()">X</div>
+            </div>
+        <h3 class="text-center "><b>Amino Acids</b></h3>
+        <div class="text f-16">
+           <b>DDAA’s (Histidine, Lysine, Methionine, Phenylalanine + other essentials) – dairy digestible amino acids​</b>
+            <ul>
+                <li>Accurately calculates the supply of amino acids available to dairy cows which drive milk production, milk composition, and producer profitability. ​</li>
+                <li>Optimizes the cost of supplying key amino acids through a “rumen first” approach to maximize rumen output of microbial protein.​</li>
+            </ul>
+        </div>
+    </div>
+<!-- /////////////////////////////Amino Acids ////////////////////////////////////////////-->
+
+
+<!-- /////////////////////////////Milk Composition ////////////////////////////////////////////-->
+    <div class="pop-up" *ngIf = "pop3 == true">
+        <div class="flex fjend"> 
+            <div class="close closenew" (click) = "closeall()">X</div>
+            </div>
+        <h3 class="text-center "><b>Milk Composition​</b></h3>
+        <div class="text f-16">
+            <b>Milk Fat Index – Cargill model​</b>
+            <ul>
+                <li>Predicts changes in milk fat composition in different diets to help customers optimize profitability and income over feed cost while providing insight on milk composition changes.</li>
+                
+            </ul>
+
+            <b>BARAL – Bioactive Rumen Available Fatty Acid Load​​</b>
+            <ul>
+                <li>Provides a way to troubleshoot milk fat depression issues and the impact of diet changes by looking at the unsaturated fats in the diet that can impact the milk fat %.​</li>
+            </ul>
+        </div>
+    </div>
+<!-- /////////////////////////////Milk Composition ////////////////////////////////////////////-->
+
+
+<!-- /////////////////////////////Rumen Environment​ ////////////////////////////////////////////-->
+
+    <div class="pop-up" *ngIf = "pop4 == true">
+        <div class="flex fjend"> 
+            <div class="close closenew" (click) = "closeall()">X</div>
+            </div>
+        <h3 class="text-center "><b>Rumen Environment​</b></h3>
+        <div class="text f-16">
+            <b>rH Index – rumen health index​</b>
+            <ul>
+                <li>Predicts rumen pH and provides insight into the risk level of rumen acidosis in the cow. ​</li>
+                <li>Optimizes rumen function and maximizes rumen performance and health.​</li>
+            </ul>
+
+            <b>Methane – part of the rumen fermentation model​</b>
+            <ul>
+                <li>Predicts amount of methane produced by the rumen and is a key component of sustainability. ​</li>
+                <li>Looks at wasted energy during the rumen fermentation process.​​</li>
+            </ul>
+
+            <b>Transition Cow Nutrition – balanced rumen during transition phase ​</b>
+            <ul>
+                <li>Focuses on correct balance of Dig NDF, Starch, and Sugar to transition rumen environment.​​</li>
+                <li>Minimizes Dry Matter Intake (DMI) decrease through calving leading to earlier and higher peak milk. ​</li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <!-- /////////////////////////////Rumen Environment​ ////////////////////////////////////////////-->
+
+
+<!-- ///////////////////////////////////using flex-box - end ////////////////////////////////////////////////////// -->
+</div>
+</div>
+</div>
+

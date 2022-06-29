@@ -1,0 +1,25 @@
+<div class="padding">
+    <div class="">
+      <div class="" data-animatename="step1" data-animatetime='1'>
+        <div class="flex fcenter gap">
+            <div class="{{this.service.data.default.main[1].children[service.parentIndex].mybox}} mybox"
+              data-animatename="step1" data-animatetime='1' *ngIf = "service.content.title.text"></div>
+    
+            <h1>{{service.content.title.text}}</h1>
+          </div>
+        <div class="flex fjcenter gap">
+        <div class="gap margin-top " [class.flex]="service.content.layoutType == 'left'"
+          [class.fcenter]="service.content.layoutType == 'left'">
+           
+          <div class="tcenter"> 
+            <img class="maximg" src="{{service.content.image.src}}">
+          </div> 
+         <div class="flex fjcenter"> <div class="margin-top" [innerHtml]="service.content.para.text"> </div> 
+          </div>
+         
+        </div>
+      </div> 
+  
+    </div>
+  </div>  
+  

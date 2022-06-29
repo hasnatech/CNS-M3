@@ -1,0 +1,165 @@
+@import "../../variable";
+
+.mobile-menu {
+  display: none;
+  margin-bottom: 30px;
+}
+
+
+@include md {
+  .mobile-menu {
+    display: block;
+  }
+}
+
+.menu {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  .dash {
+    position: relative;
+    z-index: 2;
+    width: 30px;
+    height: 2px;
+    margin-bottom: 5px;
+    background-color: $secondary;
+    transition: background-color 0.5s ease, width 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
+
+    &:nth-child(1) {
+      transform-origin: bottom right;
+    }
+
+    &:nth-child(2) {
+      width: 20px;
+    }
+
+    &:nth-child(3) {
+      width: 10px;
+    }
+  }
+
+  &.open {
+
+
+    .dash {
+      background-color: #fff9;
+
+      &:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, -1px);
+
+      }
+
+      &:nth-child(2) {
+        opacity: 0;
+      }
+
+      &:nth-child(3) {
+        width: 30px;
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
+
+$width: 20px;
+
+.menu-panel {
+  position: fixed;
+  z-index: 1;
+  background: $secondary;
+  left: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 50px;
+  color: #fff9;
+  transition: left 0.5s ease;
+
+  &.open {
+    left: 0;
+  }
+
+  .item {
+    margin: 20px;
+    transform: scale(1);
+    transition: opacity 0.5s, transform 0.5s;
+    cursor: pointer;
+
+    &.active {
+      color: $primary;
+
+      .box {
+        svg {
+          rect.fill {
+            fill: $primary;
+          }
+        }
+      }
+    }
+
+    svg {
+      &.fillsvg {
+        transition: left 0.5s, top 0.5s;
+        left: 5px;
+        top: 5px;
+      }
+    }
+
+
+    &:hover,
+    &.active {
+      opacity: 1;
+      transform: scale(1);
+
+      .box {
+        svg {
+          &.fillsvg {
+            left: 0;
+            top: 0;
+          }
+
+          rect.fill {
+            width: $width;
+            height: $width;
+          }
+        }
+      }
+    }
+
+    .box {
+      width: $width;
+      height: $width;
+      position: relative;
+      transform: rotate(45deg);
+      margin-top: 5px;
+      margin-right: 20px;
+
+      svg {
+        width: $width;
+        height: $width;
+        position: absolute;
+
+        rect.fill {
+          width: $width/2;
+          height: $width/2;
+          fill: #fff9;
+
+          transition: width 0.5s,
+            height 0.5s, x 0.5s,
+            y 0.5s;
+        }
+
+        rect.line {
+          width: $width;
+          height: $width;
+          stroke: #fff9;
+          stroke-width: 3px;
+
+        }
+
+      }
+    }
+  }
+}

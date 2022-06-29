@@ -1,0 +1,102 @@
+@import '../../variable';
+
+.f-16
+{
+  font-size: 16px;
+}
+
+.pop-up
+{
+ 
+  width: 90%;
+  // margin-left: 100px;
+
+  .text
+  {
+    padding-left: 150px;
+   
+  }
+}
+.flex-container {
+    display: flex;
+    // background-color: DodgerBlue;
+    width: 1400px;
+    justify-content: center;
+
+  }
+  
+  .flex-container > div {
+    // background-color: #f1f1f1;
+    margin: 10px;
+    justify-content: center;
+  }
+ 
+
+  .notebg
+  {
+      background-image: url(../../../assets/note.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 206px;
+      height: 180px;
+      text-align: center;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      transition: 0.3s;
+      cursor: pointer;
+      position: relative;
+
+  }
+  
+  .notebg:hover {
+   transform: scale(1.05);
+  }
+
+  .close{
+      text-align: right;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+      background-color: $primary;
+      cursor: pointer;
+      position: relative;
+      z-index: 10000;
+      transition-duration: 0.4s;
+  }
+
+  .close:hover {
+    background-color: #fff;
+    border: 2px solid $primary;
+    color: $primary;
+  }
+
+  // .pop-up{
+  //     width: 94%;
+     
+    
+  // }
+
+.closenew{
+    margin-bottom: -30px;
+}
+
+.tick
+{
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+ 
+  
+}

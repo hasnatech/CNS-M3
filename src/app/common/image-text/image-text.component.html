@@ -1,0 +1,31 @@
+<div class="padding">
+  <div class="">
+    <div class="" data-animatename="step1" data-animatetime='1'>
+      <div class="flex fcenter gap">
+        <div class="{{this.service.data.default.main[1].children[service.parentIndex].mybox}} mybox"
+          data-animatename="step1" data-animatetime='1'></div>
+
+        <h1>{{service.content.title.text}}</h1>
+      </div>
+      <div class="gap margin-top" [class.flex]="service.content.layoutType == 'left'"
+        [class.fcenter]="service.content.layoutType == 'left'">
+        <div class="">
+          <img  src="{{service.content.image1.src}}">
+        </div> 
+        <div class="flex-1" [innerHtml]="service.content.para1.text">
+        </div>
+      </div>
+
+      <div class="gap margin-top" [class.flex]="service.content.layoutType == 'left'"
+      [class.fcenter]="service.content.layoutType == 'left'">
+      <div class="">
+        <img  src="{{service.content.image2.src}}">
+      </div> 
+      <div class="flex-1" [innerHtml]="service.content.para2.text"> 
+      </div>
+    </div>
+
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,11 @@
+.start {
+  height: calc(100vh - 40px);
+  display: grid;
+  place-items: center;
+
+  .logo{
+    img{
+      max-width: 100%;
+    }
+  }
+}

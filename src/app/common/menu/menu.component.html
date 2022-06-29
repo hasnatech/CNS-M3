@@ -1,0 +1,48 @@
+<!--<div class="footer flex fcenter">
+  <div class="item flex" *ngFor="let item of service.data.default.main[1].children; let i = index"
+    [ngClass]="{'active' : getPosition(service.page) == i}" (click)="service.goto(item.startPage)">
+    <div class="box">
+      <svg>
+        <rect class="line" left="0" top="0" fill="none">
+        </rect>
+      </svg>
+      <svg class="fillsvg">
+        <rect class="fill" left="5" top="5" fill="none"></rect>
+      </svg>
+    </div>
+    <div>{{item.name}}</div>
+
+  </div>
+</div>-->
+
+<div *ngIf="menucontent">
+  <div class="bg"></div>
+
+  <div class="menuhead">
+    <div>Menu</div>
+    <div class="menu-icon" (click)="service.next()">
+      <div class="dash"></div>
+      <div class="dash"></div>
+      <div class="dash"></div>
+    </div>
+
+  </div>
+
+  <div class="menu flex">
+    <div class="item flex" *ngFor="let item of service.data.default.main[1].children; let i = index"
+      (click)="service.goto(item.startPage)">
+      <div class="box">
+        <svg>
+          <rect class="line" left="0" top="0" fill="none">
+          </rect>
+        </svg>
+        <svg class="fillsvg">
+          <rect class="fill" left="5" top="5" fill="none"></rect>
+        </svg>
+      </div>
+      <div>{{item.name}}</div>
+
+    </div>
+  </div>
+
+</div>

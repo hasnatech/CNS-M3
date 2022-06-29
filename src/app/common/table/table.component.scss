@@ -1,0 +1,208 @@
+@import '../../variable.scss';
+
+.tablecontent {
+  //height: calc(100vh - 40px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .tabledata {
+    height: 100%;
+  }
+}
+
+table,
+th,
+td {
+  // border: 1px solid black;
+  border-spacing: 0px;
+
+}
+
+.maintable {
+  width: 100%;
+}
+
+.table {
+  max-width: 100%;
+  margin-right: 20px;
+
+  table {
+    color: #fff;
+
+    //background-color: #666666;
+    td {
+      font-size: 16px;
+      width: 16%;
+      height: 100%;
+
+    }
+
+    th {}
+
+    tr {
+      background-color: #666666;
+    }
+
+
+    tr:nth-child(1) {
+      background: transparent;
+
+    }
+
+    tr:nth-child(2) {
+      background: transparent;
+
+      td:nth-child(2) {
+        border-right: 2px solid #fff;
+      }
+
+      td:nth-child(5) {
+        border-right: 2px solid #fff;
+      }
+    }
+
+
+  }
+}
+
+.borderright {
+  border-right: 5px solid #fff;
+
+
+
+}
+
+.background {
+  background-color: #666666;
+
+
+}
+
+.thheight {
+  min-height: 50px;
+}
+
+.green {
+  background-color: #658d1b;
+  border-radius: 20px;
+  padding-left: 20px;
+  min-height: 35px;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.blue {
+  background-color: #279989;
+  border-radius: 20px;
+  padding-left: 20px;
+
+  display: flex;
+  align-items: center;
+  min-height: 35px;
+}
+
+.greenhead {
+  background-color: #658d1b;
+  height: 100%;
+  padding: 0px 10px;
+
+}
+
+.bluehead {
+  background-color: #279989;
+  padding: 0px 10px;
+  border-top: 5px solid #fff;
+}
+
+.silver {
+  background-color: #999999;
+  min-height: 40px;
+  padding-left: 10px;
+
+}
+
+.boldtext {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.flexbetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.alignend {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 5px;
+
+}
+
+.flexalign {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  width: 50%;
+
+  font-size: 16px;
+  color: #000000;
+
+
+  .content {
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: baseline;
+    padding: 10px;
+    padding-top: 0px;
+
+    img {
+      padding-top: 5px;
+    }
+  }
+}
+
+.aligntablecontent {
+  height: 100%;
+
+}
+
+@include md {
+
+  .tablecontent {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .aligntablecontent {
+    width: 100%;
+    //  overflow-x: auto;
+    overflow-x: hidden;
+
+  }
+
+  .tabledata {
+    width: 100%;
+    overflow-x: auto;
+
+    table {
+      width: 1000px;
+    }
+  }
+
+  .alignend {
+    margin-right: 5px;
+
+  }
+
+  h1 {
+    text-align: left;
+  }
+}

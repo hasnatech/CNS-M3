@@ -1,0 +1,118 @@
+// @font-face {
+//   font-family: "ArialBlack";
+//   src: url('../assets/fonts/ariblk.woff') format('woff'),
+//     url('../assets/fonts/ariblk.otf') format('truetype'),
+// }
+
+$primary : #005F86;
+$secondary : #279989;
+$fullheight: calc(100vh - 120px);
+
+/////// nav colors
+$l-green  : #abae38;
+$blue     : #005F86;
+$green    : #678f3e;
+$l-blue   : #077781;
+$orange   : #cf822a;
+$secondary: #279989;
+
+
+html {
+  overflow-x: hidden;
+
+
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px; 
+  }
+
+}
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// Small devices
+@mixin sm {
+  @media (max-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (max-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (max-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (max-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+
+// Extra large devices
+@mixin min($width) {
+  @media (max-width: #{$width}) {
+    @content;
+  }
+}
+
+.show_md {
+  display: none;
+
+  @include md {
+    display: block;
+  }
+}
+
+.hide_md {
+  @include md {
+    display: none;
+  }
+}
+
+.mt-1 {
+  margin-top: -1px;
+}
+
+.margin-tb {
+  margin: 50px 0;
+}
+
+@include md {
+  html {
+    overflow-y: hidden;
+  }
+}
+
+.flex {}

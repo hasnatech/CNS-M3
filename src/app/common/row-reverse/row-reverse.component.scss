@@ -1,0 +1,60 @@
+@import '../../variable.scss';
+
+
+
+.row {
+  margin-top: 100px;
+
+  .column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //max-width: 80%;
+    margin: 0 auto;
+
+
+    .text {
+      //width: 70%;
+      margin: 0px 20px;
+    }
+
+    .sizeimage {
+      // width: 30%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+
+    }
+  }
+
+  .column:nth-child(even) {
+
+    .sizeimage {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.row :nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+@include md {
+  .row {
+    margin-top: 0px;
+    margin-bottom: 100px;
+
+    .flexblock {
+      display: block;
+    }
+
+    .image {
+      flex: 1;
+      text-align: center;
+    }
+  }
+}
