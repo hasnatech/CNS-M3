@@ -8,8 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "git": "git add . && git commit -m 'update' && git push",
-    "predeploy": "ng build --configuration production --base-href https://hasnatech.github.io/lifecycle/",
-    "deploy": "gh-pages -d dist/product-lifecycle",
+    "predeploy": "ng build --configuration production --base-href https://hasnatech.github.io/CNS-M3/",
+    "deploy": "gh-pages -d dist/cns-m3",
     "upload": "ng build --configuration production --base-href ./"
   },
   "private": true,
