@@ -109,6 +109,109 @@
                     }
                 },
                 {
+                    "type": "row-reverse", 
+                    "url": "/reverse",
+                    "ref": "Page 4",
+                    "audio": "m2-slide-5.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "What is the Cargill Nutrition System (CNS)?",
+                        "label": "Page Title"
+                    },
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/m3_img1.png",
+                            "alt": "Image"
+                        },
+                    "content": [
+                        {
+                            "text": "<p>All teams supporting CNS use the Cargill Nutrient Library as the common nutrient language.</p><p>The language defines the nutritional value of raw materials as well as the nutritional needs of the animals.</p>",
+                            "image": {
+                                "type": "image",
+                                "src": "assets/rr1.png",
+                                "alt": "Image"
+                            }
+                        },
+                        {
+                            "text": "<p>The Cargill Nutrient Library has a unique add-on called N10 that translates nutrient language from other systems (CVB, INRA, NRC, etc.)</p><p>N10 allows customers to translate nutrient languages that they are already familiar with, making onboarding easier.</p>",
+                            "image": {
+                                "type": "image",
+                                "src": "assets/rr2.png",
+                                "alt": "Image"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "img-text",
+                    "url": "/img-text", 
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-2.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        
+                        "label": "Page Title"
+                    },
+                    
+                    "image": {
+                        "type": "image",
+                        "src": "assets/infinity.png",
+                        "alt": "Image"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "Connecting <b>Supply</b> (what’s available) with <b>Demand</b> (what’s needed) to <b>Formulate</b> diets",
+                        "label": "paragraph"
+                    }
+                    
+                    
+                },
+                {
+                    "type": "m2-page16",
+                    "url": "/m2/m2-page16",
+                    "sub-type": "text-only",
+                    "ref": "Page 2",
+                    "audio": "m2-slide-15.mp3"
+                    
+                },
+                {
+                    "type": "row-reverse", 
+                    "url": "/reverse",
+                    "ref": "Page 4",
+                    "audio": "m2-slide-5.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "How does CNS support pork?",
+                        "label": "Page Title"
+                    },
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/m3_img2.png",
+                            "alt": "Image"
+                        },
+                    "content": [
+                        {
+                            "text": "<p>All teams supporting CNS use the Cargill Nutrient Library as the common nutrient language.</p><p>The language defines the nutritional value of raw materials as well as the nutritional needs of the animals.</p>",
+                            "image": {
+                                "type": "image",
+                                "src": "assets/rr1.png",
+                                "alt": "Image"
+                            }
+                        },
+                        {
+                            "text": "<p>The Cargill Nutrient Library has a unique add-on called N10 that translates nutrient language from other systems (CVB, INRA, NRC, etc.)</p><p>N10 allows customers to translate nutrient languages that they are already familiar with, making onboarding easier.</p>",
+                            "image": {
+                                "type": "image",
+                                "src": "assets/rr2.png",
+                                "alt": "Image"
+                            }
+                        }
+                    ]
+                },
+                {
                     "type": "text",
                     "url": "/text",
                     "sub-type": "text-only", 
@@ -526,6 +629,32 @@
                 {
                     "type": "m2-notepad",
                     "url": "/m2/m2-notepad",
+                    "sub-type": "text-only",
+                    "ref": "Page 2",
+                    "audio": "m2-slide-16.mp3"
+                    
+                },
+                {
+                    "type": "row-reverse", 
+                    "url": "/reverse",
+                    "ref": "Page 4",
+                    "audio": "m2-slide-5.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "How is CNS delivered to our customers?",
+                        "label": "Page Title"
+                    },
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/m3_img3.png",
+                            "alt": "Image"
+                        }
+                  
+                },
+                {
+                    "type": "m3-pop_up",
+                    "url": "/m3/m3-pop_up",
                     "sub-type": "text-only",
                     "ref": "Page 2",
                     "audio": "m2-slide-16.mp3"

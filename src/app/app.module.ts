@@ -31,6 +31,7 @@ import { M2SolutionComponent } from './pages/m2/m2-solution/m2-solution.componen
 import { M2Solution1Component } from './pages/m2/m2-solution1/m2-solution1.component';
 import { M2NotepadComponent } from './pages/m2-notepad/m2-notepad.component';
 import { ImgTextComponent } from './common/img-text/img-text.component';
+import { M3PopUpComponent } from './pages/m3-pop-up/m3-pop-up.component';
 
 
 
@@ -73,6 +74,7 @@ import { ImgTextComponent } from './common/img-text/img-text.component';
     M2NotepadComponent,
     
     ImgTextComponent,
+          M3PopUpComponent,
   ],
   imports: [
     BrowserModule,
