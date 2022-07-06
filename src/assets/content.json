@@ -109,6 +109,28 @@
                     }
                 },
                 {
+                    "type": "text",
+                    "url": "/text",
+                    "sub-type": "text-only", 
+                    "ref": "Page 1",
+                    "audio": "m2-slide-1.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "CNS Training Module 3 : CNS for Pork",
+                        "label": "Page Title"
+                    },
+                    "subtitle": {
+                        "type": "text-singleline",
+                        "text": "Agenda",
+                        "label": "Sub Title"
+                    },
+                    "content": {
+                        "type": "multipleline",
+                        "text": "<p>In this training, we will learn about:</p> <ul><li>What is CNS?</li><li>How does CNS support pork?</li><li>How is CNS delivered to our customers?</li><li>How does CNS provide value to our customers?</li></ul>",
+                        "label": "Content"
+                    }
+                },
+                {
                     "type": "row-reverse", 
                     "url": "/reverse",
                     "ref": "Page 4",
@@ -143,6 +165,9 @@
                         }
                     ]
                 },
+
+
+                
                 {
                     "type": "img-text",
                     "url": "/img-text", 
@@ -157,13 +182,17 @@
                     
                     "image": {
                         "type": "image",
-                        "src": "assets/infinity.png",
+                        "src": "assets/images/loop.png",
                         "alt": "Image"
                     },
                     "para": {
                         "type": "multipleline",
-                        "text": "Connecting <b>Supply</b> (what’s available) with <b>Demand</b> (what’s needed) to <b>Formulate</b> diets",
+                        "text": "",
                         "label": "paragraph"
+                    },
+
+                    "list":{
+                        "list1":"<ul><li>Connecting Supply (what’s available)</li> <li>to Formulate diets</li> <li>with Demand (what’s needed)</li></ul> "
                     }
                     
                     
@@ -176,6 +205,51 @@
                     "audio": "m2-slide-15.mp3"
                     
                 },
+
+                {
+                    "type": "image-text",
+                    "url": "/image-text",
+                    "ref": "Page 5",
+                    "layoutType" : "left",
+                    "audio": "m2-slide-8.mp3",
+                    
+                    
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Dairy Consultant",
+                        "label": "Page Title"
+                    },
+
+                    "image1": 
+                        {
+                            "type": "image",
+                            "src": "assets/images/img4.png",
+                            "alt": "Image"
+                        },
+
+                        "image2": 
+                        {
+                            "type": "image",
+                            "src": "assets/images/img5.png",
+                            "alt": "Image"
+                        },
+                    
+                    
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "<p>All teams supporting CNS use a common nutrient language that defines the nutritional value of ingredients as well as the nutritional needs of the animals.</p>",
+                        "label": "paragraph"
+                    },
+
+                    "para2": {
+                        "type": "multipleline",
+                        "text": "<p>To translate languages from other systems (like CVB, INRA, NRC, etc.), we use an add-on called N10 so customers can use nutrient languages they are already familiar with, making onboarding easier.</p>",
+                        "label": "paragraph"
+                    }
+
+                    
+                },
+
                 {
                     "type": "row-reverse", 
                     "url": "/reverse",
@@ -211,55 +285,23 @@
                         }
                     ]
                 },
-                {
-                    "type": "text",
-                    "url": "/text",
-                    "sub-type": "text-only", 
-                    "ref": "Page 1",
-                    "audio": "m2-slide-1.mp3",
-                    "title": {
-                        "type": "text-singleline",
-                        "text": "CNS Training Module 02 : Dairy",
-                        "label": "Page Title"
-                    },
-                    "subtitle": {
-                        "type": "text-singleline",
-                        "text": "Agenda",
-                        "label": "Sub Title"
-                    },
-                    "content": {
-                        "type": "multipleline",
-                        "text": "<p>In this training, we will learn about:</p> <ul><li>CNS and Dairy business</li><li>Main components of CNS for Dairy</li><li>Key nutrients specific to Cargill</li><li>CNS at work with dairy customers</li></ul>",
-                        "label": "Content"
-                    }
-                },
 
                 {
-                    "type": "img-text",
-                    "url": "/img-text", 
-                    "sub-type": "text-only",
-                    "ref": "Page 1",
-                    "audio": "m2-slide-2.mp3",
-                    "title": {
-                        "type": "text-singleline",
-                        
-                        "label": "Page Title"
-                    },
-                    
-                    "image": {
-                        "type": "image",
-                        "src": "assets/infinity.png",
-                        "alt": "Image"
-                    },
-                    "para": {
-                        "type": "multipleline",
-                        "text": "Connecting <b>Supply</b> (what’s available) with <b>Demand</b> (what’s needed) to <b>Formulate</b> diets",
-                        "label": "paragraph"
-                    }
-                    
-                    
-                },
+                    "type": "video",
+                    "url": "/video",  
+                    "audio": "m2-slide-6.mp3", 
+                    "ref": "Page 2",
                 
+                    "image": {
+                        "intro":"CNS overview video",
+                        "subtext":"Let’s hear from our experts",
+                        "type": "video",
+                        "src": "assets/video/Media1.mp4",
+                        "poster" :"assets/video11.png",
+                        "alt": "video"
+                    }
+                   
+                },
                 {
                     "type": "titlecard",
                     "url": "/titlecard",
@@ -289,6 +331,7 @@
                     }
                     
                 },
+
 
                 
 
@@ -340,6 +383,97 @@
                             "alt": "Image"
                         }
                     ]
+                },
+
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-10.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Innovation into Action",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "One significant investment in innovation includes the newly constructed Shanxi Province facility which will focus primarily on pork research.",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "The work being done at this center and in other Innovation Centers in Elk River, Minnesota and Velddriel, Netherlands will ensure automated lab methods can be supported, increased demand for NIR and wet chemistry tests can be met, and our customers can access a robust ingredient database.",
+                        "label": "paragraph"
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/images/img1.png",
+                        "alt": "Image"
+                    }
+                },
+
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-10.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "A connected system",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "CNS helps us deliver the most efficient and effective nutrition by connecting each part of a pork system from beginning to end.",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "",
+                        "label": "paragraph"
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/images/img2.png",
+                        "alt": "Image"
+                    }
+                },
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-10.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Nutrients and ingredients are not the same",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "Ingredients include the raw materials that go into a diet whereas nutrients are the components that the animal needs to live and grow.",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "Unlike other systems, CNS models primarily focus on nutrient measurement.",
+                        "label": "paragraph"
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/images/img3.png",
+                        "alt": "Image"
+                    }
+                },
+                {
+                    "type": "titlecard",
+                    "url": "/m2/m2-page14",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-13.mp3" 
+                    
                 },
                 
                 {
@@ -1090,7 +1224,7 @@
                     },
                     "para1": {
                         "type": "multipleline",
-                        "text": "<p><b>Managing Consistency and Profitability</b><p><ul><li>System updates every 6-12 months make it the most current in the industry.</><li>Extensive research, analysis, and knowledge of nutrients gives our customers consistent data and predictable performance.</><li>Connected nutrient data and formulation allows for frequent optimization during ingredient volatility so managing diet costs is easier.</li><li>Our unique nutrient outputs provide timely insight on milk composition changes to optimize and support dairy profitability.</li></ul><p><b>Our Commitment to the Dairy Producer</b><p><ul><li>We get feedback from 3 million cows who eat our diets to ensure the best possible service.</li><li>We have an extensive network of consultants dedicated to each farm to support every part of the herd’s life cycle.</li><li>CNS is a connected system – from the farm to the manufacturing plant – giving consultants confidence that they deliver efficient, accurate, and consistent service to dairy producers.</li></ul>",
+                        "text": "<ul><li>CNS is a connected system that focuses primarily on nutrient measurement.</li><li>By analyzing and calculating nutrients, CNS has proprietary nutrients only available to Cargill and our customers.</><li>CNS is delivered to customers through customizable nutrition and software solutions.</><li>CNS supports animal wellness and sustainability.</li><li>CNS helps customers succeed around the world by meeting their unique system goals.</li><li>CNS allows us to deliver more precise feed formulation for our customers, giving them improved predictability of performance and more consistent economic returns.</li></ul>",
                         "label": "paragraph"
                     },
                     "image": {

@@ -371,3 +371,34 @@ h3 {
 .primary-color{
   color: $primary;
 }
+
+.m-0{
+  margin: 0px;
+}
+
+.list{
+  ul{
+    display: flex;
+    gap: 120px;
+    margin: 0;
+  
+  li{
+    list-style: none;
+  }
+  
+    li:nth-child(1){
+        border-top: 5px solid #25a9de;
+        background-color: #f9f9f9;
+    }
+  
+    li:nth-child(2){
+        border-top: 5px solid #8dc63f;
+        background-color: #f9f9f9;
+    }
+  
+    li:nth-child(3){
+        border-top: 5px solid #046b40;
+        background-color: #f9f9f9;
+    }
+  }
+}
