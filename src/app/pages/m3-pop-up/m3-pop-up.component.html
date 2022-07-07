@@ -2,7 +2,7 @@
     <div class="header">
         <div class="" data-animatename="step1" data-animatetime='1'>
 
-            <div>
+            <div *ngIf="this.selected ==-1">
                 <div class="alignbase">
                     <div class="flex1 right-space primarybox mybox">
                     </div>
@@ -12,7 +12,7 @@
                 </div>
 
             </div>
-            <div>
+            <div *ngIf="this.selected ==-1">
                 <p>Nutrient concepts combined with management tools and digital software to support each life phase.</p>
             </div>
 
@@ -35,13 +35,23 @@
                   </div>
             </div> -->
 
-            <table style="">
+            <div class="margin-top">
+              <table *ngIf="this.selected ==-1">
                 <tr>
                   <th>Customized solution</th>
                   <th>What it does</th> 
             
                 </tr>
-                <tr>
+                <tr *ngFor="let item of content; let i = index">
+                  <td class="center-text" (click)="show(i)">
+                    <img class="icns_wid " src="{{item.img}}" alt="">
+                  </td>
+                  <td>{{item.text}}</td>
+
+                  
+                  
+                </tr>
+                <!-- <tr>
                   <td class="center-text">
                     <img class="icns_wid" src="assets/m3_img5.jpg" alt="">
                   </td>
@@ -75,9 +85,22 @@
                     </td>
                     <td>Software platform that creates efficiencies in the ingredient and nutrient supply chain</td>
                     
-                  </tr>
+                  </tr> -->
                
               </table>
+            </div>
+
+              <div class="" *ngFor="let item of content; let i = index">
+
+                <div class="pop-up" *ngIf = "selected == i">
+                    <div class="flex fjend"> 
+                    <div class="close closenew" (click) = "close(i)">X</div>
+                    </div>   
+                      <div class="padding-bottom"><img src="{{item.img}}" alt=""></div>              
+                      <div class="text1 " [innerHTML]="item.Popup">
+                      </div>
+                </div>
+              </div>
 
         </div>
     </div>
