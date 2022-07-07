@@ -35,8 +35,10 @@ import { M3PopUpComponent } from './pages/m3-pop-up/m3-pop-up.component';
 
 
 
+
 @NgModule({
   declarations: [
+  
     AppComponent,
     TextBlockComponent,
     StartComponent,
