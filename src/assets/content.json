@@ -296,41 +296,13 @@
                         "intro":"CNS overview video",
                         "subtext":"Let’s hear from our experts",
                         "type": "video",
-                        "src": "assets/video/Media1.mp4",
+                        "src": "assets/videos/video1.mp4",
                         "poster" :"assets/video11.png",
                         "alt": "video"
                     }
                    
                 },
-                {
-                    "type": "titlecard",
-                    "url": "/titlecard",
-                    "sub-type": "text-only",
-                    "ref": "Page 1",
-                    "audio": "m2-slide-3.mp3",
-                    "title": {
-                        "type": "text-singleline",
-                        "text": "What is the Cargill Nutrition System (CNS)?",
-                        "label": "Page Title"
-                    },
-                    
-                    "image": {
-                        "type": "image",
-                        "src": "assets/video1(new).png",
-                        "alt": "Image"
-                    },
-                    "para": {
-                        "type": "multipleline",
-                        "text": "",
-                        "label": "paragraph"
-                    },
-                    "para1": {
-                        "type": "multipleline",
-                        "text": "<p>CNS is our connected system of nutrient data, research, and algorithms that customers access via software and consulting services.</p><br/><b>CNS helps our customers:</b><ul><li>Test ingredient samples</li><li>Compare ingredient suppliers</li><li>Formulate animal diets</li><li>Predict animal performance</li><li>Establishes common nutrient language used across CAN</li></ul>",
-                        "label": "paragraph"
-                    }
-                    
-                },
+
 
 
                 
@@ -359,27 +331,38 @@
                     "image": [
                         {
                             "type": "image",
-                            "src": "assets/img1.png",
+                            "src": "assets/images/num1.png",
+                            "alt": "Image"
+                        },
+
+                        {
+                            "type": "image",
+                            "src": "assets/images/num2.png",
                             "alt": "Image"
                         },
                         {
                             "type": "image",
-                            "src": "assets/img2.png",
+                            "src": "assets/images/num3.png",
                             "alt": "Image"
                         },
                         {
                             "type": "image",
-                            "src": "assets/img3.png",
+                            "src": "assets/images/num4.png",
                             "alt": "Image"
                         },
                         {
                             "type": "image",
-                            "src": "assets/img4.png",
+                            "src": "assets/images/num5.png",
                             "alt": "Image"
                         },
                         {
                             "type": "image",
-                            "src": "assets/img5.png",
+                            "src": "assets/images/num6.png",
+                            "alt": "Image"
+                        },
+                        {
+                            "type": "image",
+                            "src": "assets/images/num7.png",
                             "alt": "Image"
                         }
                     ]
@@ -418,7 +401,7 @@
                     "url": "/titlecard",
                     "sub-type": "text-only",
                     "ref": "Page 1",
-                    "audio": "m2-slide-10.mp3",
+                    "audio": "m2-slide-4.mp3",
                     "title": {
                         "type": "text-singleline",
                         "text": "A connected system",
@@ -475,6 +458,223 @@
                     "audio": "m2-slide-13.mp3" 
                     
                 },
+
+                {
+                    "type": "m2-case",
+                    "url": "/m2/m2-case",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-29.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Case Study:",
+                        "label": "Page Title"
+                    },
+
+                    
+                    "title1": {
+                        "type": "text-singleline", 
+                        "text": "Analyzed nutrients",
+                        "subtext":"2 types of nutrients are analyzed in the lab",
+                        "label": ""
+                    },
+                    "para":{
+                        "type": "",
+                        "text": "<p>1. Basic nutrients measured in the lab that describe the intrinsic chemical characteristics of a diet. Some examples include:</p><ul  class ='normal_list'><li>Dry matter</li><li>Protein</li><li>Fat</li><li>Ash</li><li>Mycotoxins </li><li>Minerals</li><li>NDF (Neutral Detergent Fiber)</li></ul><p>2. More specific nutrients are used if the ingredient is a major source of fiber, starch, or protein and the nutrient content and digestibility needs to be further defined.</p><ul><li>IVAAD (In Vitro Amino Acid</li><li>Digestibility)</li><li>Net Energy (NE)</li><li>Fermentable Carbohydrates (CHO FRM)</li></ul>",
+                        "label": ""
+                    },
+                    "para1":{
+                        "type": "",
+                        "text": "",
+                        "label": ""
+                    },
+                    "image":{
+                        "type": "",
+                        "src": "",
+                        "alt": ""
+                    }
+                },
+
+                {
+                    "type": "m2-case",
+                    "url": "/m2/m2-case",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-5.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Case Study:",
+                        "label": "Page Title"
+                    },
+
+                    
+                    "title1": {
+                        "type": "text-singleline", 
+                        "text": "Calculated nutrients",
+                        "subtext":"<p>Once nutrients have been analyzed, they become inputs of AutoCalc® to calculate new nutrients. These calculated nutrients account for the nutrient variability of ingredients and quantify the biological function of nutrients in animals.</p> <p>Examples of calculated nutrients:</p> <ul><li>SW CNE (Swine Net Energy)</li><li>SW CHO FRM (Swine Fermentable Carbohydrates)</li><li>SW CHO STR (Swine Structural Carbohydrates)</li></ul>",
+                        "label": ""
+                    },
+                    "para":{
+                        "type": "",
+                        "text": "<p>More than 844 ingredients are calculated with AutoCalc Including:</p>",
+                        "label": ""
+                    },
+                    "para1":{
+                        "type": "",
+                        "text": "",
+                        "label": ""
+                    },
+                    "image":{
+                        "src1": "assets/images/img9.png",
+                        "src2": "assets/images/img10.png"
+                    }
+                },
+
+
+
+                {
+                    "type": "image-text",
+                    "url": "/image-text",
+                    "ref": "Page 5",
+                    "layoutType" : "left",
+                    "audio": "m2-slide-8.mp3",
+                    
+                    
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Calculated nutrient example",
+                        "label": "Page Title"
+                    },
+
+                    "image1": 
+                        {
+                            "type": "image",
+                            "src": "assets/images/img11.png",
+                            "alt": "Image"
+                        },
+
+                        "image2": 
+                        {
+                            "type": "",
+                            "src": "",
+                            "alt": ""
+                        },
+                    
+                    
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "<p>The Amino Acid Digestibility Index (AAD-IDX) was created to understand what is truly happening in a pig when the digestibility of amino acids in many feed ingredients vary because of sourcing or processing. If digestibility values don’t change, customers may over- or under-formulate expensive nutrients, so this index helps us understand how much amino acid is in an ingredient, and how much is needed to help the animal grow. It is an effective index, as the correlation between our AAD-IDX calculation and actual digestibility is around 90%<sup>1</sup>.</p> <p>AAD-IDX also evaluates ingredients to predict how that nutrient supply will meet the needs of the animals.</p>",
+                        "label": "paragraph"
+                    },
+
+                    "para2": {
+                        "type": "",
+                        "text": "",
+                        "label": ""
+                    }
+
+                    
+                },
+
+                {
+                    "type": "row-reverse", 
+                    "url": "/reverse",
+                    "ref": "Page 4",
+                    "audio": "m2-slide-5.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "How is CNS delivered to our customers?",
+                        "label": "Page Title"
+                    },
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/m3_img3.png",
+                            "alt": "Image"
+                        }
+                  
+                },
+
+                {
+                    "type": "row-reverse", 
+                    "url": "/reverse",
+                    "ref": "Page 4",
+                    "audio": "m2-slide-8.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "How does CNS create customer success?",
+                        "label": "Page Title"
+                    },
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/images/img7.jpg",
+                            "alt": "Image"
+                        }
+                  
+                },
+
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-10.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Animal wellness and sustainability",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "",
+                        "textlist":"<ul><li>Uncovers new, unconventional ingredients as other materials become limited</li><li>Helps reduce feed and nutrient waste – animals grow more and waste less</li><li>Shapes new sustainability metrics</li><li>Helps account for animal welfare, gut health, and carbon footprint when designing feed</li></ul>",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "",
+                        "text": "",
+                        "label": ""
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/images/img8.jpg",
+                        "alt": "Image"
+                    }
+                },
+
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-3.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "What is the Cargill Nutrition System (CNS)?",
+                        "label": "Page Title"
+                    },
+                    
+                    "image": {
+                        "type": "image",
+                        "src": "assets/video1(new).png",
+                        "alt": "Image"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "<p>CNS is our connected system of nutrient data, research, and algorithms that customers access via software and consulting services.</p><br/><b>CNS helps our customers:</b><ul><li>Test ingredient samples</li><li>Compare ingredient suppliers</li><li>Formulate animal diets</li><li>Predict animal performance</li><li>Establishes common nutrient language used across CAN</li></ul>",
+                        "label": "paragraph"
+                    }
+                    
+                },
+
+                    
+  
                 
                 {
                     "type": "row-reverse", 
@@ -768,24 +968,7 @@
                     "audio": "m2-slide-16.mp3"
                     
                 },
-                {
-                    "type": "row-reverse", 
-                    "url": "/reverse",
-                    "ref": "Page 4",
-                    "audio": "m2-slide-5.mp3",
-                    "title": {
-                        "type": "text-singleline",
-                        "text": "How is CNS delivered to our customers?",
-                        "label": "Page Title"
-                    },
-                    "image":
-                        {
-                            "type": "image",
-                            "src": "assets/m3_img3.png",
-                            "alt": "Image"
-                        }
-                  
-                },
+
                 {
                     "type": "m3-pop_up",
                     "url": "/m3/m3-pop_up",

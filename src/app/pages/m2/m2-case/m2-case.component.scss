@@ -41,6 +41,9 @@ video{
   {
       background-color: $primary;
       color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       
       
   }
@@ -50,9 +53,16 @@ video{
       background-color: $secondary;
       color: #fff;
       padding: 20px;
-      display: flex;
+    //   display: flex;
     //   justify-content: center;
     //   align-items: center;
   }
 
+.li_space{
+    ul{
+        li{
+            line-height: 1rem;
+        }
+    }
+}
  
