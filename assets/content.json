@@ -1,0 +1,1256 @@
+{
+    "main": [ 
+        {
+            "type": "header",
+            "title": "Header",
+            "project_title": {
+                "type": "text-singleline",
+                "text": "", 
+                "label": "Project Name"
+            },
+            "logo": {
+                "type": "image",
+                "src": "../../assets/images/logo.png",
+                "alt": ""
+            },
+            "children": [
+                {
+                    "type": "url",
+                    "title": "Home",
+                    "link": "/home",
+                    "target": "_self"
+                },
+                {
+                    "type": "url",
+                    "title": "About Us",
+                    "link": "/about",
+                    "target": "_self"
+                },
+                {
+                    "type": "url",
+                    "title": "Services",
+                    "link": "/services",
+                    "target": "_self"
+                },
+                {
+                    "type": "url",
+                    "title": "Contact Us",
+                    "link": "/about",
+                    "target": "_self"
+                }
+            ]
+        },
+        {
+            "type": "footer",
+            "title": "Footer",
+            "children": [
+                {
+                    "name": "Introduction",
+                    "startPage": 0,
+                    "mybox": "teriatarybox" 
+                },
+                {
+                    "name": "CNS for Dairy​ - A Connected System​",
+                    "startPage": 5,
+                    "mybox": "teriatarybox"
+                },
+                {
+                    "name": "Dairy Consultant​",
+                    "startPage": 7,
+                    "mybox": "primarybox"
+                },
+                {
+                    "name": "Lab",
+                    "startPage": 10,
+                    "mybox": "teriatarybox"
+                },
+                {
+                    "name": "Dairy Max",
+                    "startPage": 18,
+                    "mybox": "secondarybox"
+                },
+                {
+                    "name": "Formulation",
+                    "startPage": 21,
+                    "mybox": "teriatarybox"
+                },
+                {
+                    "name": "Manufacturing Plant",
+                    "startPage": 24,
+                    "mybox": "teriatarybox"
+                },
+                {
+                    "name": "Customer",
+                    "startPage": 27,
+                    "mybox": "teriatarybox"
+                }
+
+            ]
+        },
+        {
+
+            "type": "pages",
+            "title": "Pages",
+            "children": [
+                {
+                    "type": "start",
+                    "url": "/start",
+                    "ref": "Start Page",
+                    "audio": "",
+                    "logo": {
+                        "type": "image",
+                        "src": "../../assets/images/logo.png",
+                        "alt": "Logo"
+                    },
+                    "button": {
+                        "type": "button",
+                        "text": "Start",
+                        "label": "Label"
+                    }
+                },
+                {
+                    "type": "text",
+                    "url": "/text",
+                    "sub-type": "text-only", 
+                    "ref": "Page 1",
+                    "audio": "m2-slide-1.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "CNS Training Module 3 : CNS for Pork",
+                        "label": "Page Title"
+                    },
+                    "subtitle": {
+                        "type": "text-singleline",
+                        "text": "Agenda",
+                        "label": "Sub Title"
+                    },
+                    "content": {
+                        "type": "multipleline",
+                        "text": "<p>In this training, we will learn about:</p> <ul><li>What is CNS?</li><li>How does CNS support pork?</li><li>How is CNS delivered to our customers?</li><li>How does CNS provide value to our customers?</li></ul>",
+                        "label": "Content"
+                    }
+                },
+                {
+                    "type": "row-reverse", 
+                    "url": "/reverse",
+                    "ref": "Page 4",
+                    "audio": "m2-slide-5.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "What is the Cargill Nutrition System (CNS)?",
+                        "label": "Page Title"
+                    },
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/m3_img1.png",
+                            "alt": "Image"
+                        },
+                    "content": [
+                        {
+                            "text": "<p>All teams supporting CNS use the Cargill Nutrient Library as the common nutrient language.</p><p>The language defines the nutritional value of raw materials as well as the nutritional needs of the animals.</p>",
+                            "image": {
+                                "type": "image",
+                                "src": "assets/rr1.png",
+                                "alt": "Image"
+                            }
+                        },
+                        {
+                            "text": "<p>The Cargill Nutrient Library has a unique add-on called N10 that translates nutrient language from other systems (CVB, INRA, NRC, etc.)</p><p>N10 allows customers to translate nutrient languages that they are already familiar with, making onboarding easier.</p>",
+                            "image": {
+                                "type": "image",
+                                "src": "assets/rr2.png",
+                                "alt": "Image"
+                            }
+                        }
+                    ]
+                },
+
+
+                
+                {
+                    "type": "img-text",
+                    "url": "/img-text", 
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-2.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        
+                        "label": "Page Title"
+                    },
+                    
+                    "image": {
+                        "type": "image",
+                        "src": "assets/images/loop.png",
+                        "alt": "Image"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "",
+                        "label": "paragraph"
+                    },
+
+                    "list":{
+                        "list1":"<ul><li>Connecting Supply (what’s available)</li> <li>to Formulate diets</li> <li>with Demand (what’s needed)</li></ul> "
+                    }
+                    
+                    
+                },
+                {
+                    "type": "m2-page16",
+                    "url": "/m2/m2-page16",
+                    "sub-type": "text-only",
+                    "ref": "Page 2",
+                    "audio": "m2-slide-15.mp3"
+                    
+                },
+
+                {
+                    "type": "image-text",
+                    "url": "/image-text",
+                    "ref": "Page 5",
+                    "layoutType" : "left",
+                    "audio": "m2-slide-8.mp3",
+                    
+                    
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Dairy Consultant",
+                        "label": "Page Title"
+                    },
+
+                    "image1": 
+                        {
+                            "type": "image",
+                            "src": "assets/images/img4.png",
+                            "alt": "Image"
+                        },
+
+                        "image2": 
+                        {
+                            "type": "image",
+                            "src": "assets/images/img5.png",
+                            "alt": "Image"
+                        },
+                    
+                    
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "<p>All teams supporting CNS use a common nutrient language that defines the nutritional value of ingredients as well as the nutritional needs of the animals.</p>",
+                        "label": "paragraph"
+                    },
+
+                    "para2": {
+                        "type": "multipleline",
+                        "text": "<p>To translate languages from other systems (like CVB, INRA, NRC, etc.), we use an add-on called N10 so customers can use nutrient languages they are already familiar with, making onboarding easier.</p>",
+                        "label": "paragraph"
+                    }
+
+                    
+                },
+
+                {
+                    "type": "row-reverse", 
+                    "url": "/reverse",
+                    "ref": "Page 4",
+                    "audio": "m2-slide-5.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "How does CNS support pork?",
+                        "label": "Page Title"
+                    },
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/m3_img2.png",
+                            "alt": "Image"
+                        },
+                    "content": [
+                        {
+                            "text": "<p>All teams supporting CNS use the Cargill Nutrient Library as the common nutrient language.</p><p>The language defines the nutritional value of raw materials as well as the nutritional needs of the animals.</p>",
+                            "image": {
+                                "type": "image",
+                                "src": "assets/rr1.png",
+                                "alt": "Image"
+                            }
+                        },
+                        {
+                            "text": "<p>The Cargill Nutrient Library has a unique add-on called N10 that translates nutrient language from other systems (CVB, INRA, NRC, etc.)</p><p>N10 allows customers to translate nutrient languages that they are already familiar with, making onboarding easier.</p>",
+                            "image": {
+                                "type": "image",
+                                "src": "assets/rr2.png",
+                                "alt": "Image"
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "video",
+                    "url": "/video",  
+                    "audio": "m2-slide-6.mp3", 
+                    "ref": "Page 2",
+                
+                    "image": {
+                        "intro":"CNS overview video",
+                        "subtext":"Let’s hear from our experts",
+                        "type": "video",
+                        "src": "assets/video/Media1.mp4",
+                        "poster" :"assets/video11.png",
+                        "alt": "video"
+                    }
+                   
+                },
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-3.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "What is the Cargill Nutrition System (CNS)?",
+                        "label": "Page Title"
+                    },
+                    
+                    "image": {
+                        "type": "image",
+                        "src": "assets/video1(new).png",
+                        "alt": "Image"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "<p>CNS is our connected system of nutrient data, research, and algorithms that customers access via software and consulting services.</p><br/><b>CNS helps our customers:</b><ul><li>Test ingredient samples</li><li>Compare ingredient suppliers</li><li>Formulate animal diets</li><li>Predict animal performance</li><li>Establishes common nutrient language used across CAN</li></ul>",
+                        "label": "paragraph"
+                    }
+                    
+                },
+
+
+                
+
+                {
+                    "type": "text-image",
+                    "url": "/text",
+                    "subtype": "left-text-right-image",
+                    "audio": "m2-slide-4.mp3",
+                    "ref": "Page 3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "CNS by the numbers",
+                        "label": "Page Title"
+                    },
+                    "subtitle": {
+                        "type": "text-singleline",
+                        "text": "",
+                        "label": "Sub Title"
+                    },
+                    "content": {
+                        "type": "multipleline",
+                        "text": "Connecting <b>supply</b> with <b>demand</b> to optimize diets and achieve economic outcomes for our customers",
+                        "label": "Content"
+                    },
+                    "image": [
+                        {
+                            "type": "image",
+                            "src": "assets/img1.png",
+                            "alt": "Image"
+                        },
+                        {
+                            "type": "image",
+                            "src": "assets/img2.png",
+                            "alt": "Image"
+                        },
+                        {
+                            "type": "image",
+                            "src": "assets/img3.png",
+                            "alt": "Image"
+                        },
+                        {
+                            "type": "image",
+                            "src": "assets/img4.png",
+                            "alt": "Image"
+                        },
+                        {
+                            "type": "image",
+                            "src": "assets/img5.png",
+                            "alt": "Image"
+                        }
+                    ]
+                },
+
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-10.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Innovation into Action",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "One significant investment in innovation includes the newly constructed Shanxi Province facility which will focus primarily on pork research.",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "The work being done at this center and in other Innovation Centers in Elk River, Minnesota and Velddriel, Netherlands will ensure automated lab methods can be supported, increased demand for NIR and wet chemistry tests can be met, and our customers can access a robust ingredient database.",
+                        "label": "paragraph"
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/images/img1.png",
+                        "alt": "Image"
+                    }
+                },
+
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-10.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "A connected system",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "CNS helps us deliver the most efficient and effective nutrition by connecting each part of a pork system from beginning to end.",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "",
+                        "label": "paragraph"
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/images/img2.png",
+                        "alt": "Image"
+                    }
+                },
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-10.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Nutrients and ingredients are not the same",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "Ingredients include the raw materials that go into a diet whereas nutrients are the components that the animal needs to live and grow.",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "Unlike other systems, CNS models primarily focus on nutrient measurement.",
+                        "label": "paragraph"
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/images/img3.png",
+                        "alt": "Image"
+                    }
+                },
+                {
+                    "type": "titlecard",
+                    "url": "/m2/m2-page14",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-13.mp3" 
+                    
+                },
+                
+                {
+                    "type": "row-reverse", 
+                    "url": "/reverse",
+                    "ref": "Page 4",
+                    "audio": "m2-slide-5.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "CNS for Dairy​ - A Connected System​",
+                        "label": "Page Title"
+                    },
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/cns-c.png",
+                            "alt": "Image"
+                        },
+                    "content": [
+                        {
+                            "text": "<p>All teams supporting CNS use the Cargill Nutrient Library as the common nutrient language.</p><p>The language defines the nutritional value of raw materials as well as the nutritional needs of the animals.</p>",
+                            "image": {
+                                "type": "image",
+                                "src": "assets/rr1.png",
+                                "alt": "Image"
+                            }
+                        },
+                        {
+                            "text": "<p>The Cargill Nutrient Library has a unique add-on called N10 that translates nutrient language from other systems (CVB, INRA, NRC, etc.)</p><p>N10 allows customers to translate nutrient languages that they are already familiar with, making onboarding easier.</p>",
+                            "image": {
+                                "type": "image",
+                                "src": "assets/rr2.png",
+                                "alt": "Image"
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "video",
+                    "url": "/video",  
+                    "audio": "m2-slide-6.mp3", 
+                    "ref": "Page 2",
+                
+                    "image": {
+                        "intro":"Introduction to CNS",
+                        "type": "video",
+                        "src": "assets/video/Media1.mp4",
+                        "poster" :"assets/video11.png",
+                        "alt": "video"
+                    }
+                   
+                },
+
+                {
+                    "type": "text-image2",
+                    "url": "/textimage",
+                    "ref": "Page 5",
+                    "audio": "m2-slide-7.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Dairy Consultant",
+                        "label": "Page Title"
+                    },
+                    "subtitle": {
+                        "type": "text-singleline",
+                        "text": "Managing Nutrient Variation",
+                        "label": "Sub Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "Not all corn is the same. Nutrients vary based on region, environment, harvest, storage, transport and other factors.",
+                        "label": "paragraph"
+                    },
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/Picture-1.png",
+                            "alt": "Image"
+                        }
+                },
+
+
+
+
+
+                {
+                    "type": "img-text",
+                    "url": "/img-text", 
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-8-0.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Dairy Consultant",
+                        "label": "Page Title"
+                    },
+                    
+                    "image": {
+                        "type": "image",
+                        "src": "assets/m2-merg.png",
+                        "alt": "Image"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "The core of CNS lies with the relationship between the dairy producer and their dairy consultant. They work together to understand on-farm ingredients and identify if there are missing nutrients based on the goals of the farm.",
+                        "label": "paragraph"
+                    }
+                    
+                    
+                },
+
+
+                {
+                    "type": "image-text",
+                    "url": "/image-text",
+                    "ref": "Page 5",
+                    "layoutType" : "left",
+                    "audio": "m2-slide-8.mp3",
+                    
+                    
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Dairy Consultant",
+                        "label": "Page Title"
+                    },
+
+                    "image1": 
+                        {
+                            "type": "image",
+                            "src": "assets/diary3-1.png",
+                            "alt": "Image"
+                        },
+
+                        "image2": 
+                        {
+                            "type": "image",
+                            "src": "assets/diary3-2.png",
+                            "alt": "Image"
+                        },
+                    
+                    
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "<p>The consultant brings the power of CNS solutions to the customer by delivering precise and predictable service that maintains consistency in diet formulation. This builds confidence in their practice.</p>",
+                        "label": "paragraph"
+                    },
+
+                    "para2": {
+                        "type": "multipleline",
+                        "text": "<p>The consultant visits the farm, pulls on-farm ingredient samples and sends these to Cargill labs for analysis.</p>",
+                        "label": "paragraph"
+                    }
+
+                    
+                },
+
+                
+                
+
+                {
+                    "type": "text-image2",
+                    "url": "/textimage",
+                    "ref": "Page 5",
+                    "audio": "m2-slide-9.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Lab",
+                        "label": "Page Title"
+                    },
+                    "subtitle": {
+                        "type": "text-singleline",
+                        "text": "Managing Nutrient Variation",
+                        "label": "Sub Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "",
+                        "label": "paragraph"
+                    },
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/Picture-2.png",
+                            "alt": "Image"
+                        }
+                },
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-10.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Lab – Investments in Research and Development",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "Cargill invests in research and development at labs and innovation centers around the world. This ongoing investment strengthens the benefits of CNS and continues to give our customers access to a robust ingredient database. ",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "One example of this can be seen in the plans to improve the Elk River Innovation Center by 2023. This investment will ensure unique and automated lab methods can be supported, increased demand for NIR and wet chemistry tests can be met, and expertise can be consolidated.<br><br>Improving the facility will also create a unique space for customers to visit and see what we do with ingredient research and development. ",
+                        "label": "paragraph"
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/titlecard-1.png",
+                        "alt": "Image"
+                    }
+                },
+
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-11.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Lab",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "This investment allows our labs and innovation centers to play a crucial role in CNS. Hundreds of ingredient samples from around the world are sent to these labs every day for complete analysis.",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "<p>Here are just a few of the ways we test ingredient samples, run lab work, conduct research, and compile data for dairy:</p><ul><li>NIR analysis</li><li>Physical characteristics testing (for example, evaluating the impact of particle size on digestibility)</li><li>Wet chemistry testing</li><li>In vitro (in the lab) continuous culture</li><li>In vitro gas production</li><li>In vivo (in the cow) performance trials</li><li>In situ (in rumen) digestibility</li></ul>",
+                        "label": "paragraph"
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/mergeimg.png",
+                        "alt": "Image"
+                    }
+                },
+
+                {
+                    "type": "video",
+                    "url": "/video", 
+                    "audio": "m2-slide-12.mp3", 
+                    "ref": "Page 2",
+                
+                    "image": {
+                        "intro": "Lab Analysis and CNS ",
+                        "type": "video",
+                        "src": "assets/video/media2-1.mp4",
+                        "poster" :"assets/media2.png",
+                        "alt": "video"
+                    }
+                   
+                },
+
+
+                {
+                    "type": "titlecard",
+                    "url": "/m2/m2-page14",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-13.mp3" 
+                    
+                },
+                {
+                    "type": "m2-page15",
+                    "url": "/m2/m2-page15",
+                    "sub-type": "text-only",
+                    "ref": "Page 2",
+                    "audio": "m2-slide-14.mp3"
+                                
+                    
+                },
+                {
+                    "type": "m2-page16",
+                    "url": "/m2/m2-page16",
+                    "sub-type": "text-only",
+                    "ref": "Page 2",
+                    "audio": "m2-slide-15.mp3"
+                    
+                },
+
+                {
+                    "type": "m2-notepad",
+                    "url": "/m2/m2-notepad",
+                    "sub-type": "text-only",
+                    "ref": "Page 2",
+                    "audio": "m2-slide-16.mp3"
+                    
+                },
+                {
+                    "type": "row-reverse", 
+                    "url": "/reverse",
+                    "ref": "Page 4",
+                    "audio": "m2-slide-5.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "How is CNS delivered to our customers?",
+                        "label": "Page Title"
+                    },
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/m3_img3.png",
+                            "alt": "Image"
+                        }
+                  
+                },
+                {
+                    "type": "m3-pop_up",
+                    "url": "/m3/m3-pop_up",
+                    "sub-type": "text-only",
+                    "ref": "Page 2",
+                    "audio": "m2-slide-16.mp3"
+                    
+                },
+                
+               
+
+                {
+                    "type": "text-image2",
+                    "url": "/textimage",
+                    "ref": "Page 5",
+                    "audio": "m2-slide-17.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Dairy MAX",
+                        "label": "Page Title"
+                    },
+                    "subtitle": {
+                        "type": "text-singleline",
+                        "text": "Managing Nutrient Variation",
+                        "label": "Sub Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "Not all corn is the same. Nutrients vary based on region, environment, harvest, storage, transport and other factors.",
+                        "label": "paragraph"
+                    },
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/picture-3.png",
+                            "alt": "Image"
+                        }
+                },
+
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-18.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Dairy MAX",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "MAX is a software platform that leverages the power of CNS to help customers and their consultant make the best decisions in diet formulation, profitability, production, and nutrition.<br><br>Consultants use dairy MAX to design the final diet which can include a Cargill product that is formulated, manufactured, and delivered to our customers.",
+                        "label": "paragraph"
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/Dairymax.jpg",
+                        "alt": "Image"
+                    }
+                },
+
+                {
+                    "type": "video",
+                    "url": "/video", 
+                    "audio": "m2-slide-19.mp3", 
+                    "ref": "Page 2",
+                
+                    "image": {
+                        "intro": "Dairy MAX and CNS",
+                        "type": "video",
+                        "src": "assets/video/Media3.mp4", 
+                        "poster" :"assets/video11.png",
+                        "alt": "video"
+                    }
+                   
+                },
+                {
+                    "type": "text-image2",
+                    "url": "/textimage",
+                    "ref": "Page 5",
+                    "audio": "m2-slide-20.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Formulation",
+                        "label": "Page Title"
+                    },  
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/Formulation_chapter.png",
+                            "alt": "Image"
+                        }
+                },
+
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-30.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Diet Formulation",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "Diet formulation creates the ingredient recipe that utilizes on-farm ingredients and a manufactured product to supply the nutrients needed to meet animal performance and health goals.<br><br>To formulate the recipe, the consultant enters current information about the herd into dairy MAX. This information will include body weight, milk production, the environment, and other factors.<br><br>The consultant also addresses ingredient cost and availability into the formulation.",
+                        "label": "paragraph"
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/Picture-formulation1.png",
+                        "alt": "Image"
+                    }
+                },
+               
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-31.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Product Formulation",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "Product formulation creates the recipe for the Cargill manufactured product. For dairy, 50% or more of the diet is forage, with the remaining part made up of other nutrients that could come from a Cargill manufactured custom, premix, or line product.<br> <br> To formulate, our formulators create the recipe by being connected to dairy MAX and the supplier database to account for nutrient composition changes, market volatility, and ingredient availability.",
+                        "label": "paragraph"
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/Picture-formulation2.png",
+                        "alt": "Image"
+                    }
+                },
+                {
+                    "type": "text-image2",
+                    "url": "/textimage",
+                    "ref": "Page 5",
+                    "audio": "m2-slide-32.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Manufacturing Plant",
+                        "label": "Page Title"
+                    },  
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/Picture-MP.png",
+                            "alt": "Image"
+                        }
+                },
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-33.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Manufacturing Plant",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "Cargill manufacturing plants are connected to formulation systems and the nutrient data.<br><br> This connectivity gives us the ability to maintain a consistent product formulation over time as ingredients and market pricing changes.<br><br>It ensures diets are consistent and animal performance is predictable. ",
+                        "label": "paragraph"
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/Picture-MP1.png",
+                        
+                        "alt": "Image"
+                    }
+                },
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-34.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Manufactured Product",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "The final product goes to the farm or the supplier and will be mixed with on-farm ingredients using the right ration.<br><br>CNS gives our consultants the power to order a product that is customized to the nutrient profile, ingredient constraints, animal needs, and goals of each farm.<br><br>All of this is calculated by dairy MAX to become the final diet.",
+                        "label": "paragraph"
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/picture-mp2.png",
+                        
+                        "alt": "Image"
+                    }
+                },
+                {
+                    "type": "text-image2",
+                    "url": "/textimage",
+                    "ref": "Page 5",
+                    "audio": "m2-slide-35.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Customer",
+                        "label": "Page Title"
+                    },  
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/Picture-customer.png",
+                            "alt": "Image"
+                        }
+                },
+                {
+                    "type": "m2-page36",
+                    "url": "/m2/m2-page36",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-36.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Customer Segments",
+                        "label": "Page Title"
+                    },
+                    "para":[
+                         {
+                            "type": "multipleline",
+                            "text": "<span> Aiden and Noah customers</span> are producers who use a consultant. <br>They need to optimize on-farm ingredients and to create the right diet formulation based on their goals. <br><b>What do they need most from CNS?<b> Consistency to build a generational business. They want better productivity, sustainable practices, higher production with fewer inputs, and the ability maximize other investments.",
+                            "label": "paragraph"
+                        },
+                        {
+                            "type": "multipleline",
+                            "text": "<span>Spence customers</span> are independent consultants. <br>They need accurate nutrients to formulate diets that fill gaps in nutrition. If a farm has issues, they can use CNS combined with Cargill products to effectively solve challenges. <br><b>What do they need most from CNS?<b> To have a consistent system that builds confidence and strengthens their own brand, customer retention.",
+                            "label": "paragraph"
+                        },
+                        {
+                            "type": "multipleline",
+                            "text": "<span>Mila customers</span> create feed. <br>They need their plant formulation systems to connect to their diet formulation system in real time. CNS helps them customize formulations and optimize feed, cost and performance. <br><b>What do they need most from CNS?<b> Create a growing business with the best quality feed, build strong relationships with producers and access to a constantly updated system.",
+                            "label": "paragraph"
+                        },
+                        {
+                            "type": "multipleline",
+                            "text": "<span>Dennis customers</span> are distributors that sell feed. <br>They need our plant formulation systems to speak to their diet formulation systems in real time, so they can access product specifications. <br><b>What do they need most from CNS?<b> Create a great reputation using the best quality feeds. Build strong customer intimacy.",
+                            "label": "paragraph"
+                        }
+
+                    ],
+                    "image": [
+                            {
+                                "type": "image",
+                                "src": "assets/Picture-customer.png",
+                                "alt": "Image"
+                            },
+                            {
+                                "type": "image",
+                                "src": "assets/customer2.png",
+                                "alt": "Image"
+                            },
+                            {
+                                "type": "image",
+                                "src": "assets/customer3.png",
+                                "alt": "Image"
+                            },
+                            {
+                                "type": "image",
+                                "src": "assets/customer4.png",
+                                "alt": "Image"
+                            }
+                    ]
+                },
+                {
+                    "type": "m2-case",
+                    "url": "/m2/m2-case",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-29.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Case Study:",
+                        "label": "Page Title"
+                    },
+
+                    
+                    "title1": {
+                        "type": "text-singleline", 
+                        "text": "Challenge",
+                        "label": "Page Title"
+                    },
+                    "para":{
+                        "type": "multipleline",
+                        "text": "Fazenda Esperança Farm, Goiás, Brazil <br><br>Isabela Carvalho Costa, Consultant",
+                        "label": "paragraph"
+                    },
+                    "para1":{
+                        "type": "multipleline",
+                        "text": "Herd size: 113 <br><br>Lactating Holsteins were experiencing several problems including rumen acidosis, bad manure score, and early signs of laminitis in some animals. <br><br>The herd was averaging 33.5 liters per cow/day but needed to increase production. <br><br>Isabela noticed the current diet was harming rumen function because of high levels of adjusted starch, low RDP, and low forage inclusion.",
+                        "label": "paragraph"
+                    },
+                    "image":{
+                        "type": "image",
+                        "src": "assets/Slide 29_map.png",
+                        "alt": "Image"
+                    }
+                },
+                {
+                    "type": "m2-solution",
+                    "url": "/m2/m2-solution",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-30-0.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Solution",
+                        "label": "Page Title"
+                    }
+                },
+                {
+                    "type": "m2-case",
+                    "url": "/m2/m2-case",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-31-0.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Case Study:",
+                        "label": "Page Title"
+                    },
+                    "title1": {
+                        "type": "text-singleline",
+                        "text": "Challenge",
+                        "label": "Page Title"
+                    },
+                    "para":{
+                        "type": "multipleline",
+                        "text": "Hanbang Farm Anhui Province, China <br><br>Xingming Li, Consultant",
+                        "label": "paragraph"
+                    },
+                    "para1":{
+                        "type": "multipleline",
+                        "text": "Herd size: 1,239 <br><br>Hanbang Farm was experiencing low milk fat and low Milk Urea Nitrogen (MUN) levels at around 10.2 mg/dL. <br><br>They were also producing 38.6 kg/cow/day which below their production goal of 40 kg/cow/day. <br><br>Hanbang farm feeds three levels of diets to their herds: A fresh diet, a high group diet, and a low group diet.",
+                        "label": "paragraph"
+                    },
+                    "image":{
+                        "type": "image",
+                        "src": "assets/Slide31_map.png",
+                        "alt": "Image"
+                    }
+                },
+                {
+                    "type": "m2-solution1",
+                    "url": "/m2/m2-solution1",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide32.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Solution",
+                        "label": "Page Title"
+                    }
+                },
+                {
+                    "type": "m2-case",
+                    "url": "/m2/m2-case",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide33.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Case Study:",
+                        "label": "Page Title"
+                    },
+                    "para":{
+                        "type": "multipleline",
+                        "text": "Horsens Homestead Farm Wisconsin, USA <br><br>Connor Willems, Consultant",
+                        "label": "paragraph"
+                    },
+                    "image":{
+                        "type": "image",
+                        "src": "assets/Slide 33_map.png",
+                        "alt": "Image"
+                    },
+                    "video": {
+                     
+                        "src": "assets/video/Media4.mp4",
+                        "poster" :"assets/Media4.png",
+                        "alt": "video"
+                    }
+                },
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m2-slide-45.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Summary",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "<ul><li>CNS is a connected system that focuses primarily on nutrient measurement.</li><li>By analyzing and calculating nutrients, CNS has proprietary nutrients only available to Cargill and our customers.</><li>CNS is delivered to customers through customizable nutrition and software solutions.</><li>CNS supports animal wellness and sustainability.</li><li>CNS helps customers succeed around the world by meeting their unique system goals.</li><li>CNS allows us to deliver more precise feed formulation for our customers, giving them improved predictability of performance and more consistent economic returns.</li></ul>",
+                        "label": "paragraph"
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/summary.png",
+                        
+                        "alt": "Image"
+                    }
+                },
+                {
+                    "type": "thankyou",
+                    "url": "/thankyou",
+                    "ref": "Start Page",
+                    "audio": "m2-slide-46.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Thank you",
+                        "label": "Page Title"
+                    },
+                    "logo": {
+                        "type": "image",
+                        "src": "../../assets/images/thank.png",
+                        "alt": "Logo"
+                    }
+                }
+            ]
+        }
+    ]
+}
