@@ -126,6 +126,9 @@ ol {
   &.fjend{
     justify-content: flex-end;
   }
+  &.flex-wrap{
+    flex-wrap: wrap;
+  }
 }
 
 .absolute {
@@ -205,9 +208,23 @@ h3 {
   background-color: #DAAB27;
 }
 
+.lgreenbox{
+  background-color: $l-green;
+}
+
+.dgreenbox{
+  background-color: $green;
+}
+
+.lbluebox{
+  background-color: $l-blue;
+}
+
+
+
 .primarybox,
 .secondarybox,
-.teriatarybox {
+.teriatarybox,.lgreenbox,.dgreenbox,.lbluebox{
   width: 30px;
   height: 30px;
 }
@@ -357,8 +374,13 @@ h3 {
 
 .maximg {
   max-width: 100%;
-  max-height: 800px;
+  max-height: 85vh;
 
+}
+
+.maximg_new{
+  width: 100%;
+  max-height: 30vh;
 }
 
 .pad-20 {
@@ -417,7 +439,7 @@ h3 {
   margin: 0%;
   li{
     background: none;
-    list-style: circle;
+    list-style: none;
     padding: 0;
     line-height: 2rem;
     

@@ -2,9 +2,9 @@
     <div class="header">
         <div class="" data-animatename="step1" data-animatetime='1'>
 
-            <div *ngIf="this.selected ==-1">
+            <div>
                 <div class="alignbase">
-                    <div class="flex1 right-space primarybox mybox">
+                    <div class="{{this.service.data.default.main[1].children[service.parentIndex].mybox}} mybox">
                     </div>
                     <div>
                         <h1>Creating success for customers around the world</h1>
@@ -12,11 +12,11 @@
                 </div>
 
             </div>
-            <div *ngIf="this.selected ==-1">
+            <div >
                 <p>Click on the videos below to hear different examples of how CNS comes to life in different regions.</p>
             </div>
 
-            <div class="flex fjcenter gap pt-5" *ngIf="this.selected ==-1">
+            <div class="flex fjcenter gap pt-5  flex-wrap" *ngIf="this.selected ==-1">
                 <div  class="flex-col fcenter fjcenter flex-1" *ngFor="let item of content; let i = index">
                     <h2 class="center-text bold">{{item.text}}</h2>
                     <div class="center-text cursor">
@@ -28,16 +28,16 @@
               <div class="" *ngFor="let item of content; let i = index">
 
 
-                <div class="pop-up" *ngIf = "selected == i">
-                    <div class="flex fjend"> 
-                    <div class="close closenew" (click) = "close(i)">X</div>
-                    </div>   
+                <div class="pop-up pt-5" *ngIf = "selected == i"> 
                     <div class="video-box ">
+                      <div class="rel"> 
+                        <div class="close closenew" (click) = "close(i)">X</div>
                         <video  controls poster="{{item.poster}}">
                           <source src="{{item.video}}" type="video/mp4">
                           
                         </video>
                     </div>
+                    </div>  
                 </div>
               </div>
 

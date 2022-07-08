@@ -50,7 +50,9 @@ table, th, td {
     color: #fff;
     background-color: $primary;
     cursor: pointer;
-    position: relative;
+    position: absolute;
+    right: -30px;
+    top: -30px;
     z-index: 10000;
     transition-duration: 0.4s;
 }
@@ -127,4 +129,8 @@ table, th, td {
 
 .cursor{
     cursor: pointer;
+}
+
+.rel{
+    position: relative;
 }

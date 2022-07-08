@@ -115,16 +115,16 @@ $width: 20px;
   }
 
   .item:nth-child(2) {
-    color: #DAAB27;
+    color: $primary;
 
     .box {
       svg {
         rect.fill {
-          fill: #DAAB27;
+          fill: $primary;
         }
 
         rect.line {
-          stroke: #DAAB27;
+          stroke: $primary;
         }
 
       }
@@ -149,16 +149,16 @@ $width: 20px;
   }
 
   .item:nth-child(4) {
-     color: $blue;
+     color: $l-blue;
 
     .box {
       svg {
         rect.fill {
-          fill: $blue;
+          fill: $l-blue;
         }
 
         rect.line {
-          stroke: $blue;
+          stroke: $l-blue;
         }
 
       }

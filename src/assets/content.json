@@ -51,23 +51,23 @@
                 },
                 {
                     "name": "What is CNS?​",
-                    "startPage": 5,
-                    "mybox": "teriatarybox"
-                },
-                {
-                    "name": "How does CNS support pork?​",
-                    "startPage": 7,
+                    "startPage": 2,
                     "mybox": "primarybox"
                 },
                 {
+                    "name": "How does CNS support pork?​",
+                    "startPage": 6,
+                    "mybox": "lgreenbox"
+                },
+                {
                     "name": "How is CNS delivered to our customers?",
-                    "startPage": 10,
-                    "mybox": "teriatarybox"
+                    "startPage": 18,
+                    "mybox": "lbluebox"
                 },
                 {
                     "name": "How does CNS provide value to our customers?",
-                    "startPage": 18,
-                    "mybox": "secondarybox"
+                    "startPage": 20,
+                    "mybox": "dgreenbox"
                 }
 
             ]
@@ -177,7 +177,7 @@
                     },
 
                     "list":{
-                        "list1":"<ul><li>Connecting Supply (what’s available)</li> <li>to Formulate diets</li> <li>with Demand (what’s needed)</li></ul> "
+                        "list1":"<ul><li>Connecting <b>Supply</b> (what’s available)</li> <li>to <b>Formulate</b> diets</li> <li>with <b>Demand</b> (what’s needed)</li></ul> "
                     }
                     
                     
@@ -281,7 +281,7 @@
                         "intro":"CNS overview video",
                         "subtext":"Let’s hear from our experts",
                         "type": "video",
-                        "src": "assets/videos/video1.mp4",
+                        "src": "assets/video/video1.mp4",
                         "poster" :"assets/video/video1.png",
                         "alt": "video"
                     }
@@ -496,7 +496,7 @@
                     },
                     "para":{
                         "type": "",
-                        "text": "<p>1. Basic nutrients measured in the lab that describe the intrinsic chemical characteristics of a diet. Some examples include:</p><div class ='normal_list'><ul><li>Dry matter</li><li>Protein</li><li>Fat</li><li>Ash</li><li>Mycotoxins </li><li>Minerals</li><li>NDF (Neutral Detergent Fiber)</li></ul></div><p>2. More specific nutrients are used if the ingredient is a major source of fiber, starch, or protein and the nutrient content and digestibility needs to be further defined.</p><div class ='normal_list'><ul><li>IVAAD (In Vitro Amino Acid</li><li>Digestibility)</li><li>Net Energy (NE)</li><li>Fermentable Carbohydrates (CHO FRM)</li></ul></div>",
+                        "text": "<p>1. <b>Basic nutrients</b> measured in the lab that describe the intrinsic chemical characteristics of a diet. Some examples include:</p><div class ='normal_list'><ul><li>Dry matter</li><li>Protein</li><li>Fat</li><li>Ash</li><li>Mycotoxins </li><li>Minerals</li><li>NDF (Neutral Detergent Fiber)</li></ul></div><p>2. <b>More specific nutrients</b> are used if the ingredient is a major source of fiber, starch, or protein and the nutrient content and digestibility needs to be further defined.</p><div class ='normal_list'><ul><li>IVAAD (In Vitro Amino Acid Digestibility)</li><li>Net Energy (NE)</li><li>Fermentable Carbohydrates (CHO FRM)</li></ul></div>",
                         "label": ""
                     },
                     "para1":{
@@ -527,12 +527,12 @@
                     "title1": {
                         "type": "text-singleline", 
                         "text": "Calculated nutrients",
-                        "subtext":"<p>Once nutrients have been analyzed, they become inputs of AutoCalc® to calculate new nutrients. These calculated nutrients account for the nutrient variability of ingredients and quantify the biological function of nutrients in animals.</p> <p>Examples of calculated nutrients:</p> <ul><li>SW CNE (Swine Net Energy)</li><li>SW CHO FRM (Swine Fermentable Carbohydrates)</li><li>SW CHO STR (Swine Structural Carbohydrates)</li></ul>",
+                        "subtext":"<p>Once nutrients have been analyzed, they become inputs of AutoCalc<sup>®</sup> to <b>calculate</b> new nutrients. These calculated nutrients account for the nutrient variability of ingredients and quantify the biological function of nutrients in animals.</p> <p>Examples of calculated nutrients:</p> <ul><li>SW CNE (Swine Net Energy)</li><li>SW CHO FRM (Swine Fermentable Carbohydrates)</li><li>SW CHO STR (Swine Structural Carbohydrates)</li></ul>",
                         "label": ""
                     },
                     "para":{
                         "type": "",
-                        "text": "<p>More than 844 ingredients are calculated with AutoCalc Including:</p>",
+                        "text": "<p>More than <b>844 ingredients</b> are calculated with AutoCalc Including:</p>",
                         "label": ""
                     },
                     "para1":{
@@ -579,7 +579,7 @@
                     
                     "para1": {
                         "type": "multipleline",
-                        "text": "<p>The Amino Acid Digestibility Index (AAD-IDX) was created to understand what is truly happening in a pig when the digestibility of amino acids in many feed ingredients vary because of sourcing or processing. If digestibility values don’t change, customers may over- or under-formulate expensive nutrients, so this index helps us understand how much amino acid is in an ingredient, and how much is needed to help the animal grow. It is an effective index, as the correlation between our AAD-IDX calculation and actual digestibility is around 90%<sup>1</sup>.</p> <p>AAD-IDX also evaluates ingredients to predict how that nutrient supply will meet the needs of the animals.</p>",
+                        "text": "<p>The Amino Acid Digestibility Index (AAD-IDX) was created to understand what is truly happening in a pig when the digestibility of amino acids in many feed ingredients vary because of sourcing or processing. If digestibility values don’t change, customers may over- or under-formulate expensive nutrients, so this index helps us understand how much amino acid is in an ingredient, and how much is needed to help the animal grow. It is an effective index, as the correlation between our AAD-IDX calculation and <b>actual digestibility is around 90%<sup>1</sup></b>.</p> <p>AAD-IDX also evaluates ingredients to predict how that nutrient supply will meet the needs of the animals.</p>",
                         "label": "paragraph"
                     },
 
@@ -682,7 +682,7 @@
                     "url": "/m3/m3-video",
                     "sub-type": "text-only",
                     "ref": "Page 2",
-                    "audio": "m3-slide24.mp3"
+                    "audio": "m3-slide32.mp3"
                     
                 },
 

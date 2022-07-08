@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { MainService } from 'src/app/service/main.service';
 @Component({
   selector: 'app-m3-video',
   templateUrl: './m3-video.component.html',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class M3VideoComponent implements OnInit {
 
-  constructor() { }
+  constructor(public service : MainService) { }
 
   ngOnInit(): void {
   }
@@ -26,25 +26,25 @@ export class M3VideoComponent implements OnInit {
 
   content=[
     {
-      img:"assets/video/video1.png",
+      img:"assets/video/video2.png",
       text:"Eastern Europe",
-      video:"assets/video/video1.mp4",
-      poster:"assets/video/video1.png"
+      video:"assets/video/video2.mp4",
+      poster:"assets/video/video2.png"
       
       
     },
     {
-      img:"assets/video/video1.png",
+      img:"assets/video/video3.png",
       text:"Mexico",
-      video:"assets/video/video1.mp4",
-      poster:"assets/video/video1.png"
+      video:"assets/video/video3.mp4",
+      poster:"assets/video/video3.png"
      
     },
     {
-      img:"assets/video/video1.png",
+      img:"assets/video/video4.png",
       text:"China",
-      video:"assets/video/video1.mp4",
-      poster:"assets/video/video1.png"
+      video:"assets/video/video4.mp4",
+      poster:"assets/video/video4.png"
       
     },
   ]

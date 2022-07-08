@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MainService } from 'src/app/service/main.service';
 
 @Component({
   selector: 'app-m3-pop-up',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class M3PopUpComponent implements OnInit {
 
-  constructor() { }
+  constructor(public service : MainService) { }
 
   ngOnInit(): void {
   }
