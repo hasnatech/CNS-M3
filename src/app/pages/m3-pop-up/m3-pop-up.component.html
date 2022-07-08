@@ -45,6 +45,7 @@
                 <tr *ngFor="let item of content; let i = index">
                   <td class="center-text" (click)="show(i)">
                     <img class="icns_wid " src="{{item.img}}" alt="">
+                    <img class="tick" src="{{item.img}}" *ngIf = "this.visit[i] == true">
                   </td>
                   <td>{{item.text}}</td>
 

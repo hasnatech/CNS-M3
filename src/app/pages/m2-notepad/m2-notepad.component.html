@@ -33,56 +33,60 @@
 </div>
 
 
-
 <!-- /////////////////////////////Nutrient Digestibility & Energy ////////////////////////////////////////////-->
-<div class="">
+<div class="pt-5 flex fjcenter">
+    <div >
 
-      <div class="pop-up" *ngIf = "pop1 == true">
+        <div class="pop-up" *ngIf = "pop1 == true">
+            <div class="flex fjend"> 
+            <div class="close closenew" (click) = "closeall()">X</div>
+            </div>
+              <div class="text1 ">
+                  <h3 class="text-center"><b>Swine Fermentable Protein<br> (SW GUT FP)<br><br> Swine Fermentable  Carbohydrates (SW CHO FRM) </b></h3>
+                 <p>Our <span class="yel">Fermentable Protein</span> and <span class="yel">Fermentable Carbohydrate</span> nutrient approach leads to improved gut health critical to pig wellbeing.</p>
+              </div>
+        </div>
+  <!-- /////////////////////////////Nutrient Digestibility & Energy ////////////////////////////////////////////-->
+  
+  
+  <!-- /////////////////////////////Amino Acids ////////////////////////////////////////////-->
+        <div class="pop-up" *ngIf = "pop3 == true">
           <div class="flex fjend"> 
-          <div class="close closenew" (click) = "closeall()">X</div>
-          </div>
-            <!-- <h3 class="text-center"><b>Nutrient Digestibility & Energy​</b></h3> -->
-            <div class="text1 ">
-               <p>Our <span class="yel">Fermentable Protein</span> and <span class="yel">Fermentable Carbohydrate</span> nutrient approach leads to improved gut health critical to pig wellbeing.</p>
-            </div>
+              <div class="close closenew" (click) = "closeall()">X</div>
+              </div>
+              <div class="text1 ">
+                  <h3 class="text-center"><b>Phytase Index<br> (PHY IDX)</b></h3>
+                  <p>Our <span class="yel">Phytase Index</span> helps pigs absorb and use phosphorous for improved growth. It also helps Cargill and customers find the most cost-effective source of phytase in diets.</p>
+               </div>
       </div>
-<!-- /////////////////////////////Nutrient Digestibility & Energy ////////////////////////////////////////////-->
-
-
-<!-- /////////////////////////////Amino Acids ////////////////////////////////////////////-->
+  <!-- /////////////////////////////Amino Acids ////////////////////////////////////////////-->
+  
+  
+  <!-- /////////////////////////////Milk Composition ////////////////////////////////////////////-->
       <div class="pop-up" *ngIf = "pop2 == true">
-        <div class="flex fjend"> 
-            <div class="close closenew" (click) = "closeall()">X</div>
-            </div>
-            <div class="text1 ">
-                <p>Our <span class="yel">Phytase Index</span> helps pigs absorb and use phosphorous for improved growth. It also helps Cargill and customers find the most cost-effective source of phytase in diets.</p>
-             </div>
-    </div>
-<!-- /////////////////////////////Amino Acids ////////////////////////////////////////////-->
-
-
-<!-- /////////////////////////////Milk Composition ////////////////////////////////////////////-->
-    <div class="pop-up" *ngIf = "pop3 == true">
-        <div class="flex fjend"> 
-            <div class="close closenew" (click) = "closeall()">X</div>
-            </div>
-            <div class="text1 ">
-                <p>The <span class="yel">Net Energy</span> model supports 5 different life stages to deliver more efficient growth across the entire production cycle.</p>
-             </div>
-    </div>
-<!-- /////////////////////////////Milk Composition ////////////////////////////////////////////-->
-
-
-<!-- /////////////////////////////Rumen Environment​ ////////////////////////////////////////////-->
-
-    <div class="pop-up" *ngIf = "pop4 == true">
-        <div class="flex fjend"> 
-            <div class="close closenew" (click) = "closeall()">X</div>
-            </div>
-            <div class="text1 ">
-                <p>Our <span class="yel">Structural Carbohydrates</span> approach improves performance and health for piglets which creates higher grow rate and livability.</p>
-             </div>
-    </div>
+          <div class="flex fjend"> 
+              <div class="close closenew" (click) = "closeall()">X</div>
+              </div>
+              <div class="text1 ">
+                  <h3 class="text-center"><b>Swine Net Energy<br> (SW CNE)</b></h3>
+                  <p>The <span class="yel">Net Energy</span> model supports 5 different life stages to deliver more efficient growth across the entire production cycle.</p>
+               </div>
+      </div>
+  <!-- /////////////////////////////Milk Composition ////////////////////////////////////////////-->
+  
+  
+  <!-- /////////////////////////////Rumen Environment​ ////////////////////////////////////////////-->
+  
+      <div class="pop-up" *ngIf = "pop4 == true">
+          <div class="flex fjend"> 
+              <div class="close closenew" (click) = "closeall()">X</div>
+              </div>
+              <div class="text1 ">
+                  <h3 class="text-center"><b>Swine Structural Carbohydrates<br> (SW CHO STR)</b></h3>
+                  <p>Our <span class="yel">Structural Carbohydrates</span> approach improves performance and health for piglets which creates higher grow rate and livability.</p>
+               </div>
+      </div>
+  </div>
 </div>
     <!-- /////////////////////////////Rumen Environment​ ////////////////////////////////////////////-->
 

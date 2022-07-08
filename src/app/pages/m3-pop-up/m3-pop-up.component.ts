@@ -13,9 +13,11 @@ export class M3PopUpComponent implements OnInit {
   }
 
   selected = -1
+  visit = false
 
   show(n:any){
     this.selected = n;
+    this.visit[n] = true;
   }
 
   close(n:any){
