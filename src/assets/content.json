@@ -50,39 +50,24 @@
                     "mybox": "teriatarybox" 
                 },
                 {
-                    "name": "CNS for Dairy​ - A Connected System​",
+                    "name": "What is CNS?​",
                     "startPage": 5,
                     "mybox": "teriatarybox"
                 },
                 {
-                    "name": "Dairy Consultant​",
+                    "name": "How does CNS support pork?​",
                     "startPage": 7,
                     "mybox": "primarybox"
                 },
                 {
-                    "name": "Lab",
+                    "name": "How is CNS delivered to our customers?",
                     "startPage": 10,
                     "mybox": "teriatarybox"
                 },
                 {
-                    "name": "Dairy Max",
+                    "name": "How does CNS provide value to our customers?",
                     "startPage": 18,
                     "mybox": "secondarybox"
-                },
-                {
-                    "name": "Formulation",
-                    "startPage": 21,
-                    "mybox": "teriatarybox"
-                },
-                {
-                    "name": "Manufacturing Plant",
-                    "startPage": 24,
-                    "mybox": "teriatarybox"
-                },
-                {
-                    "name": "Customer",
-                    "startPage": 27,
-                    "mybox": "teriatarybox"
                 }
 
             ]
@@ -375,7 +360,7 @@
                     "audio": "m3-slide10.mp3",
                     "title": {
                         "type": "text-singleline",
-                        
+                        "text": "Global Innovation and Application",
                         "label": "Page Title"
                     },
                     
@@ -480,6 +465,7 @@
                         "alt": "Image"
                     }
                 },
+
                 {
                     "type": "titlecard",
                     "url": "/m2/m2-page14",
@@ -639,7 +625,7 @@
                     "url": "/m3/m3-pop_up",
                     "sub-type": "text-only",
                     "ref": "Page 2",
-                    "audio": "m3-slide1.mp3"
+                    "audio": "m3-slide24.mp3"
                     
                 },
 
@@ -692,19 +678,12 @@
                 },
 
                 {
-                    "type": "video",
-                    "url": "/video",  
-                    "audio": "m2-slide-6.mp3", 
+                    "type": "m3-video",
+                    "url": "/m3/m3-video",
+                    "sub-type": "text-only",
                     "ref": "Page 2",
-                
-                    "image": {
-                        "intro":"Introduction to CNS",
-                        "type": "video",
-                        "src": "assets/video/Media1.mp4",
-                        "poster" :"assets/video11.png",
-                        "alt": "video"
-                    }
-                   
+                    "audio": "m3-slide24.mp3"
+                    
                 },
 
                 {

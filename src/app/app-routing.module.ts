@@ -22,6 +22,7 @@ import { M2Page36Component } from './pages/m2/m2-page36/m2-page36.component';
 import { M2SolutionComponent } from './pages/m2/m2-solution/m2-solution.component';
 import { M2Solution1Component } from './pages/m2/m2-solution1/m2-solution1.component';
 import { M3PopUpComponent } from './pages/m3-pop-up/m3-pop-up.component';
+import { M3VideoComponent } from './pages/m3-video/m3-video.component';
 
 
 const routes: Routes = [
@@ -96,6 +97,10 @@ const routes: Routes = [
 { 
   path: "m3/m3-pop_up/:id",
   component:M3PopUpComponent
+},
+{ 
+  path: "m3/m3-video/:id",
+  component:M3VideoComponent
 },
 { 
   path: "m2/m2-page36/:id", 
