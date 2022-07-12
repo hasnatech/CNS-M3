@@ -14,7 +14,7 @@ export class MainService {
   data;
   content;
   percentage = 0;
-  page = 19;
+  page = 0;
   totalLength = 0; 
   color: any;
   private audio: string;
