@@ -13,15 +13,17 @@ export class M3VideoComponent implements OnInit {
   }
 
   selected = -1
-  visit = false
+  visit = []
 
   show(n:any){
     this.selected = n;
     this.visit[n] = true;
+    this.service.shownavigation = false
   }
 
   close(n:any){
     this.selected = -1;
+    this.service.shownavigation = true
   }
 
   content=[

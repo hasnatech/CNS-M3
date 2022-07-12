@@ -19,8 +19,11 @@
             <div class="flex fjcenter gap pt-5  flex-wrap" *ngIf="this.selected ==-1">
                 <div  class="flex-col fcenter fjcenter flex-1" *ngFor="let item of content; let i = index">
                     <h2 class="center-text bold">{{item.text}}</h2>
-                    <div class="center-text cursor">
-                      <img src="{{item.img}}" alt="" (click)="show(i)" class="v_img">
+                    <div class="center-text cursor ">
+                      <div class="rel fit-content">
+                        <img src="{{item.img}}" alt="" (click)="show(i)" class="v_img">
+                        <img class="tick" src="assets/tick.svg" *ngIf = "this.visit[i] == true">
+                      </div>
                     </div>
                 </div>
             </div>

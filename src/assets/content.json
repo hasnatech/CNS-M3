@@ -109,6 +109,11 @@
                         "text": "Agenda",
                         "label": "Sub Title"
                     },
+                    "note": {
+                        "type": "multipleline",
+                        "text": "",
+                        "label": "Content"
+                    },
                     "content": {
                         "type": "multipleline",
                         "text": "<p>In this training, we will learn about:</p> <ul><li>What is CNS?</li><li>How does CNS support pork?</li><li>How is CNS delivered to our customers?</li><li>How does CNS provide value to our customers?</li></ul>",
@@ -310,6 +315,11 @@
                     "content": {
                         "type": "multipleline",
                         "text": "",
+                        "label": "Content"
+                    },
+                    "note": {
+                        "type": "multipleline",
+                        "text": "*As of May 2022",
                         "label": "Content"
                     },
                     "image": [

@@ -75,12 +75,14 @@ table, th, td {
 
 .tick
 {
-  top: 10px;
-  left: 10px;
+  top: -10px;
+  left: -10px;
   position: absolute;
-  width: 30px;
+  width: 25px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color:#fff;
+  border: 1px solid $secondary;
+  height: 25px;
  
   
 }
@@ -133,4 +135,9 @@ table, th, td {
 
 .rel{
     position: relative;
+}
+
+.fit-content{
+  width: fit-content;
+  margin: 0 auto;
 }

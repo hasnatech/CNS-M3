@@ -42,10 +42,10 @@
                   <th>What it does</th> 
             
                 </tr>
-                <tr *ngFor="let item of content; let i = index">
+                <tr *ngFor="let item of content; let i = index" class=rel>
                   <td class="center-text" (click)="show(i)">
                     <img class="icns_wid " src="{{item.img}}" alt="" class="pointer">
-                    <img class="tick" src="{{item.img}}" *ngIf = "this.visit[i] == true">
+                    <img class="tick" src="assets/tick.svg" *ngIf = "this.visit[i] == true">
                   </td>
                   <td>{{item.text}}</td>
 
