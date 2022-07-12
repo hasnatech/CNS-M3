@@ -228,7 +228,7 @@
 
                     "para2": {
                         "type": "multipleline",
-                        "text": "<p>To translate languages from other systems (like CVB, INRA, NRC, etc.), we use an add-on called N10 so customers can use nutrient languages they are already familiar with, making onboarding easier.</p>",
+                        "text": "<p>To translate languages from other systems (like CVB, INRA, NRC, etc.), we use an add-on called <i>N10</i> so customers can use nutrient languages they are already familiar with, making onboarding easier.</p>",
                         "label": "paragraph"
                     }
 
@@ -309,7 +309,7 @@
                     },
                     "content": {
                         "type": "multipleline",
-                        "text": "Connecting <b>supply</b> with <b>demand</b> to optimize diets and achieve economic outcomes for our customers",
+                        "text": "",
                         "label": "Content"
                     },
                     "image": [
@@ -435,6 +435,11 @@
                         "type": "image",
                         "src": "assets/images/img2.png",
                         "alt": "Image"
+                    },
+                    "note": {
+                        "type": "multipleline",
+                        "text": "For more details about the CNS as a connected pork system, please see the Pork Nutrient Driven Process submodule.",
+                        "label": "paragraph"
                     }
                 },
 
@@ -527,7 +532,7 @@
                     "title1": {
                         "type": "text-singleline", 
                         "text": "Calculated nutrients",
-                        "subtext":"<p>Once nutrients have been analyzed, they become inputs of AutoCalc<sup>®</sup> to <b>calculate</b> new nutrients. These calculated nutrients account for the nutrient variability of ingredients and quantify the biological function of nutrients in animals.</p> <p>Examples of calculated nutrients:</p> <ul><li>SW CNE (Swine Net Energy)</li><li>SW CHO FRM (Swine Fermentable Carbohydrates)</li><li>SW CHO STR (Swine Structural Carbohydrates)</li></ul>",
+                        "subtext":"<p>Once nutrients have been analyzed, they become inputs of AutoCalc<sup>®</sup> to <b>calculate</b> new nutrients. These calculated nutrients account for the nutrient variability of ingredients and quantify the biological function of nutrients in animals.</p> <p>Examples of calculated nutrients:</p> <div class ='normal_list'> <ul><li>SW CNE (Swine Net Energy)</li><li>SW CHO FRM (Swine Fermentable Carbohydrates)</li><li>SW CHO STR (Swine Structural Carbohydrates)</li></ul> </div>",
                         "label": ""
                     },
                     "para":{
