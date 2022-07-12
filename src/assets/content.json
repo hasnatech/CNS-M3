@@ -728,6 +728,11 @@
                         "type": "multipleline",
                         "text": "<ul><li>CNS is a <b>connected system</b> that focuses primarily on nutrient measurement.</li><li>By analyzing and calculating nutrients, CNS has <b>proprietary nutrients</b> only available to Cargill and our customers.</><li>CNS is delivered to customers through <b>customizable nutrition and software solutions.</b></><li>CNS supports <b>animal wellness</b> and <b>sustainability</b>.</li><li>CNS helps <b>customers succeed</b> around the world by meeting their unique system goals.</li><li>CNS allows us to deliver more <b>precise feed formulation</b> for our customers, giving them improved <b>predictability</b> of performance and more <b>consistent</b> economic returns.</li></ul>",
                         "label": "paragraph"
+                    },
+                    "image": {
+                        "type": "",
+                        "src": "",
+                        "alt": ""
                     }
                 },
                 {
