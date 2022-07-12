@@ -228,7 +228,7 @@
 
                     "para2": {
                         "type": "multipleline",
-                        "text": "<p>To translate languages from other systems (like CVB, INRA, NRC, etc.), we use an add-on called N10 so customers can use nutrient languages they are already familiar with, making onboarding easier.</p>",
+                        "text": "<p>To translate languages from other systems (like CVB, INRA, NRC, etc.), we use an add-on called <i>N10</i> so customers can use nutrient languages they are already familiar with, making onboarding easier.</p>",
                         "label": "paragraph"
                     }
 
@@ -309,7 +309,7 @@
                     },
                     "content": {
                         "type": "multipleline",
-                        "text": "Connecting <b>supply</b> with <b>demand</b> to optimize diets and achieve economic outcomes for our customers",
+                        "text": "",
                         "label": "Content"
                     },
                     "image": [
@@ -435,6 +435,11 @@
                         "type": "image",
                         "src": "assets/images/img2.png",
                         "alt": "Image"
+                    },
+                    "note": {
+                        "type": "multipleline",
+                        "text": "For more details about the CNS as a connected pork system, please see the Pork Nutrient Driven Process submodule.",
+                        "label": "paragraph"
                     }
                 },
 
@@ -527,7 +532,7 @@
                     "title1": {
                         "type": "text-singleline", 
                         "text": "Calculated nutrients",
-                        "subtext":"<p>Once nutrients have been analyzed, they become inputs of AutoCalc<sup>®</sup> to <b>calculate</b> new nutrients. These calculated nutrients account for the nutrient variability of ingredients and quantify the biological function of nutrients in animals.</p> <p>Examples of calculated nutrients:</p> <ul><li>SW CNE (Swine Net Energy)</li><li>SW CHO FRM (Swine Fermentable Carbohydrates)</li><li>SW CHO STR (Swine Structural Carbohydrates)</li></ul>",
+                        "subtext":"<p>Once nutrients have been analyzed, they become inputs of AutoCalc<sup>®</sup> to <b>calculate</b> new nutrients. These calculated nutrients account for the nutrient variability of ingredients and quantify the biological function of nutrients in animals.</p> <p>Examples of calculated nutrients:</p> <div class ='normal_list'> <ul><li>SW CNE (Swine Net Energy)</li><li>SW CHO FRM (Swine Fermentable Carbohydrates)</li><li>SW CHO STR (Swine Structural Carbohydrates)</li></ul> </div>",
                         "label": ""
                     },
                     "para":{
@@ -599,9 +604,148 @@
                     "ref": "Page 2",
                     "audio": "m3-slide18.mp3"
                     
-                }
+                },
 
+                {
+                    "type": "row-reverse", 
+                    "url": "/reverse",
+                    "ref": "Page 4",
+                    "audio": "m3-slide23.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "How is CNS delivered to our customers?",
+                        "label": "Page Title"
+                    },
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/m3_img3.png",
+                            "alt": "Image"
+                        }
+                  
+                },
+
+                {
+                    "type": "m3-pop_up",
+                    "url": "/m3/m3-pop_up",
+                    "sub-type": "text-only",
+                    "ref": "Page 2",
+                    "audio": "m3-slide24.mp3"
+                    
+                },
+
+                {
+                    "type": "row-reverse", 
+                    "url": "/reverse",
+                    "ref": "Page 4",
+                    "audio": "m3-slide30.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "How does CNS create customer success?",
+                        "label": "Page Title"
+                    },
+                    "image":
+                        {
+                            "type": "image",
+                            "src": "assets/images/img7.jpg",
+                            "alt": "Image"
+                        }
+                  
+                },
+
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m3-slide31.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Animal wellness and sustainability",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "",
+                        "textlist":"<ul><li>Uncovers new, unconventional ingredients as other materials become limited</li><li>Helps reduce feed and nutrient waste – animals grow more and waste less</li><li>Shapes new sustainability metrics</li><li>Helps account for animal welfare, gut health, and carbon footprint when designing feed</li></ul>",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "",
+                        "text": "",
+                        "label": ""
+                    },
+                    "image": {
+                        "type": "image",
+                        "src": "assets/images/img8.jpg",
+                        "alt": "Image"
+                    }
+                },
+
+                {
+                    "type": "m3-video",
+                    "url": "/m3/m3-video",
+                    "sub-type": "text-only",
+                    "ref": "Page 2",
+                    "audio": "m3-slide32.mp3"
+                    
+                },
+
+                {
+                    "type": "video",
+                    "url": "/video",  
+                    "audio": "m3-slide33.mp3", 
+                    "ref": "Page 2",
                 
+                    "image": {
+                        "intro":"Creating success for customers around the world",
+                        "subtext":"Click on the video below to see how CNS and Cargill brought value to one of our customers",
+                        "type": "video",
+                        "src": "assets/video/video5.mp4",
+                        "poster" :"assets/video/video5.png",
+                        "alt": "video"
+                    }
+                   
+                },
+
+                {
+                    "type": "titlecard",
+                    "url": "/titlecard",
+                    "sub-type": "text-only",
+                    "ref": "Page 1",
+                    "audio": "m3-slide34.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Summary",
+                        "label": "Page Title"
+                    },
+                    "para": {
+                        "type": "multipleline",
+                        "text": "",
+                        "label": "paragraph"
+                    },
+                    "para1": {
+                        "type": "multipleline",
+                        "text": "<ul><li>CNS is a <b>connected system</b> that focuses primarily on nutrient measurement.</li><li>By analyzing and calculating nutrients, CNS has <b>proprietary nutrients</b> only available to Cargill and our customers.</><li>CNS is delivered to customers through <b>customizable nutrition and software solutions.</b></><li>CNS supports <b>animal wellness</b> and <b>sustainability</b>.</li><li>CNS helps <b>customers succeed</b> around the world by meeting their unique system goals.</li><li>CNS allows us to deliver more <b>precise feed formulation</b> for our customers, giving them improved <b>predictability</b> of performance and more <b>consistent</b> economic returns.</li></ul>",
+                        "label": "paragraph"
+                    }
+                },
+                {
+                    "type": "thankyou",
+                    "url": "/thankyou",
+                    "ref": "Start Page",
+                    "audio": "m3-slide35.mp3",
+                    "title": {
+                        "type": "text-singleline",
+                        "text": "Thank you",
+                        "label": "Page Title"
+                    },
+                    "logo": {
+                        "type": "image",
+                        "src": "../../assets/images/thank.png",
+                        "alt": "Logo"
+                    }
+                }
             ]
         }
     ]

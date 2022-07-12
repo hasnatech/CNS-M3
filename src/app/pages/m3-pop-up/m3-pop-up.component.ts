@@ -14,11 +14,16 @@ export class M3PopUpComponent implements OnInit {
   }
 
   selected = -1
+  selected1= -1
   visit = false
 
   show(n:any){
     this.selected = n;
     this.visit[n] = true;
+  }
+
+  show1(n:any){
+    this.selected1 = n;
   }
 
   close(n:any){
@@ -42,7 +47,8 @@ export class M3PopUpComponent implements OnInit {
         <li>Prepares piglet digestive system for weaning by helping transition from sow milk to 100% solid feed</li>
         <li>Splits transition feeding into phases to maximize feed intake and encourage growth 	Phases include Neonatal, Transition, NeoTrans, and Starter</li>
         <li>Decreases feed costs by creating feeding system phases</li>
-      </ul>`
+      </ul>`,
+      note:"Global brand for young pigs not used in every country.*"
       
     },
     {
@@ -97,7 +103,10 @@ export class M3PopUpComponent implements OnInit {
         <li>Incorporates CNS technology and aligns it to formulation capabilities with the specific needs of the customer
         </li>
         <li>Uses CNS to understand animal requirements and links to the nutrient supply from key ingredients</li>
-      </ul>`
+      </ul>`,
+      note:"For additional details, see “Overview – pork MAX” module",
+      instruction:"Click here to see the history of pork MAX",
+      Popup1: '<h2 class="bold">History of pork MAX</h2> <img src="assets/images/history.png" class="pt-5 maximg">'
     },
     {
       img:"assets/m3_img9.png",

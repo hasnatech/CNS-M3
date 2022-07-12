@@ -44,7 +44,7 @@
                 </tr>
                 <tr *ngFor="let item of content; let i = index">
                   <td class="center-text" (click)="show(i)">
-                    <img class="icns_wid " src="{{item.img}}" alt="">
+                    <img class="icns_wid " src="{{item.img}}" alt="" class="pointer">
                     <img class="tick" src="{{item.img}}" *ngIf = "this.visit[i] == true">
                   </td>
                   <td>{{item.text}}</td>
@@ -97,9 +97,16 @@
                     <div class="flex fjend"> 
                     <div class="close closenew" (click) = "close(i)">X</div>
                     </div>   
-                      <div class="padding-bottom"><img src="{{item.img}}" alt=""></div>              
-                      <div class="text1 " [innerHTML]="item.Popup">
-                      </div>
+                      <div class="padding-bottom"><img src="{{item.img}}" alt=""></div>
+                      <div class="text1 " *ngIf = "selected1 != i" [innerHTML]="item.Popup"> </div>             
+                      <div class="text1 " *ngIf = "selected1 == i" [innerHTML]="item.Popup1">
+                      
+                </div>
+                <div>
+                  <div class="instruction pointer" (click)="show1(i)" *ngIf = "selected1 != i">
+                    {{item.instruction}}
+                  </div>
+                  <div class="note" *ngIf="item.note">{{item.note}}</div>
                 </div>
               </div>
 
