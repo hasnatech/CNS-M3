@@ -4,7 +4,7 @@
 
             <div *ngIf="this.selected ==-1">
                 <div class="alignbase">
-                    <div class="{{this.service.data.default.main[1].children[service.parentIndex].mybox}}mybox">
+                  <div class="{{this.service.data.default.main[1].children[service.parentIndex].mybox}} mybox">
                     </div>
                     <div>
                         <h1>CNS is delivered through customized solutions</h1>
@@ -35,7 +35,7 @@
                   </div>
             </div> -->
 
-            <div class="margin-top">
+            <div class="">
               <table *ngIf="this.selected ==-1">
                 <tr>
                   <th>Customized solution</th>
@@ -106,7 +106,7 @@
                   <div class="instruction pointer" (click)="show1(i)" *ngIf = "selected1 != i">
                     {{item.instruction}}
                   </div>
-                  <div class="note" *ngIf="item.note">{{item.note}}</div>
+                  <div class="note pt-2" *ngIf="item.note">{{item.note}}</div>
                 </div>
               </div>
 

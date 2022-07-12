@@ -33,3 +33,9 @@
     margin-right: 0px;
   }
 }
+
+
+.maximg {
+  max-width: 100%;
+  max-height: calc(100vh - 150px);
+}
