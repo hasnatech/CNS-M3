@@ -81,7 +81,7 @@
                     "type": "start",
                     "url": "/start",
                     "ref": "Start Page",
-                    "audio": "m3-slide1.mp3",
+                    "audio": "",
                     "logo": {
                         "type": "image",
                         "src": "../../assets/images/logo.png",
