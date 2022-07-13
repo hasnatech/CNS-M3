@@ -28,10 +28,10 @@ export class M3VideoComponent implements OnInit {
 
   content=[
     {
-      img:"assets/video/video2.png",
+      img:"assets/video/video2-alt.png",
       text:"Eastern Europe",
       video:"assets/video/video2.mp4",
-      poster:"assets/video/video2.png"
+      poster:"assets/video/video2-alt.png"
       
       
     },
